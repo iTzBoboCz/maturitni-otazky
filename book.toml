@@ -4,3 +4,7 @@ language = "cs"
 multilingual = false
 src = "src"
 title = "Maturitní otázky k oboru IT - vývoj aplikací a her na SPŠ na Proseku"
+
+[output.html]
+fold = { enable = true }
+git-repository-url = "https://github.com/iTzBoboCz/maturitni-otazky"

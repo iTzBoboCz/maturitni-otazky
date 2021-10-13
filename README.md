@@ -37,14 +37,19 @@ Kvůli orientaci v git historii vznikla [specifikace](https://www.conventionalco
 #### Formát
 
 :heavy_check_mark: typ: zprava
+
 :crown: typ(nazev-kapitoly): zprava
 
 #### Příklady
 
 :x: toto je zmena kterou jsem udelal o volne hodine
+
 :heavy_check_mark: feat: pridano rozrazeni typu monitoru # feat = něco nového (feature)
+
 :heavy_check_mark: fix: zmena nazvu souboru # oprava/úprava
+
 :heavy_check_mark: fix: upraveny uvod grafickych karet
+
 :crown: fix(graficke-karty): upraveny uvod
 
 _Pro více informací můžete navštívit i [tuto ukázku](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)_

@@ -1,0 +1,1 @@
+# Chlazení a počítačové skříně

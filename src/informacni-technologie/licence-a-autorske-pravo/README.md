@@ -1,0 +1,1 @@
+# Licence a autorské právo

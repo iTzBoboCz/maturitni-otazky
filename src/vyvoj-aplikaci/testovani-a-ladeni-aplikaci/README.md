@@ -1,0 +1,1 @@
+# Testování a ladění aplikací

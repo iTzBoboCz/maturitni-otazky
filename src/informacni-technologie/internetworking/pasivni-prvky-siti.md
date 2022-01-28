@@ -1,0 +1,1 @@
+# Pasivní prvky sítí

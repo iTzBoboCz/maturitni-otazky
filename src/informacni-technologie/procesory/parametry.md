@@ -1,0 +1,1 @@
+# Parametry procesorů

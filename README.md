@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/iTzBoboCz/maturitni-otazky">
-    <img alt="CC-BY-SA-4.0 License" src="https://img.shields.io/github/license/iTzBoboCz/maturitni-otazky.svg"/>
+    <img alt="CC-BY-SA-4.0 License" src="https://img.shields.io/github/license/iTzBoboCz/maturitni-otazky"/>
   </a>
 </p>
 

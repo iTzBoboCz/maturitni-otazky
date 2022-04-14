@@ -13,6 +13,8 @@
 
 Vygenerovanou stránku si můžete prohlédnout [zde](https://itzbobocz.github.io/maturitni-otazky/).
 
+Kniha se generuje ze souborů ve formátu Markdown. Tutoriál na práci s ním naleznete [zde](https://github.com/iTzBoboCz/maturitni-otazky/blob/main/markdown-tutorial.md).
+
 ## Jak začít?
 
 Tento repozitář obsahuje nakonfigurované nástroje, které usnadňují práci s formátováním jak textu, tak i názvů commitů.

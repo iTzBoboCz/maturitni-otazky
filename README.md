@@ -4,8 +4,8 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/iTzBoboCz/galera-web">
-    <img alt="GPL 3.0 License" src="https://img.shields.io/github/license/iTzBoboCz/maturitni-otazky.svg"/>
+  <a href="https://github.com/iTzBoboCz/maturitni-otazky">
+    <img alt="CC-BY-SA-4.0 License" src="https://img.shields.io/github/license/iTzBoboCz/maturitni-otazky.svg"/>
   </a>
 </p>
 

@@ -2,7 +2,7 @@
 
 ## Von Neumannovo schéma
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Von_Neumannovo_schema.svg/2560px-Von_Neumannovo_schema.svg.png)
+![](./images/von-neumannovo-schema.png)
 
 - **John Ludwig Von Neumann**
   - americký matematik židovského původu
@@ -63,7 +63,7 @@
 
 ## Harvardská architektura
 
-![](http://michaelkuty.github.io/ssz-ai-hk-3/_images/harvard_arch.png)
+![](./images/harvardska-architektura.png)
 
 - paměť programu je oddělena od paměti dat
 - oddělené sběrnice

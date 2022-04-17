@@ -60,7 +60,7 @@
       - postup
         1. vytvoříme uzel, který bude ukazovat na určitý uzel (A)
         2. uzel který je před uzlem (A), tak bude muset nyní ukazovat na náš nový uzel
-           ![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/Linkedlist_insert_middle.png)
+           ![](./images/Linkedlist_insert_middle.png)
   - dělí se
     - single linked list (jednosměrně spojový seznam)
       - uzel ukazuje na další uzel
@@ -68,7 +68,7 @@
       - uzel ukazuje na další i předchozí uzel
     - circular linked list (kruhový spojový seznam)
       - poslední uzel ukazuje na první uzel
-        ![](https://media.geeksforgeeks.org/wp-content/uploads/CircularSinglyLinkedList.png)
+        ![](./images/CircularSinglyLinkedList.png)
 - Tree (Strom)
   - slouží k uchování hierarchicky uspořádaných dat (např. složky a soubory)
   - každý strom má Root (kořen), což je uzel
@@ -91,12 +91,12 @@
   - 2 typy
     - neorientovaný graf - hrany nerozlišují směr
     - orientovaný graf - hrany mají určen směr od počátečního do koncového uzlu
-      ![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/undirectedgraph.png)
+      ![](./images/undirectedgraph.png)
 - Hash
   - používá se k sestavování asociativních polí, které za pomoci klíče (key) a správné hashovací funkce (hash function) umožňují indexování
   - jde o metodu,která řádově snižuje asymptotickou složitost vyhledávání až na logaritmickou úroveň
   - indexování je hojně používáno například v databázích, kde urychluje vyhledávání
-    ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/1200px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
+    ![](./images/Hash_table_3_1_1_0_1_0_0_SP.png)
 
 # Použití
 
@@ -111,4 +111,4 @@
 
 # Náročnost operací
 
-![](https://www.bigocheatsheet.com/img/big-o-cheat-sheet-poster.png)
+![](./images/big-o-cheat-sheet-poster.png)

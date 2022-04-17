@@ -72,13 +72,13 @@
 
 - používá se k znovu použití existující třídy, která není kompatibilní s další třídou
   - nemusí se modifikovat kód existující třídy
-- ![](https://refactoring.guru/images/patterns/diagrams/adapter/solution-en.png?id=5f4f1b4575236a3853f274b690bd6656)
+- ![](./images/structural-patterns-adapter.png)
 
 ## Flyweight
 
 - umožňuje vložit více dat na RAM, díky sdílení částí mezi objekty místo nechání všech dat v každém objektu
 - **Problém**:
-  - ![](https://refactoring.guru/images/patterns/diagrams/flyweight/problem-en.png?id=1ab15b46781c548e3e7c55dddbee72de)
+  - ![](./images/structural-patterns-flyweight-problem.png)
 - **Řešení**:
   - Sdílí se instance třídy Particle
-  - ![](https://refactoring.guru/images/patterns/diagrams/flyweight/solution3-en.png?id=e861e35c1214c46ac7333a127462de68)
+  - ![](./images/structural-patterns-flyweight-solution.png)

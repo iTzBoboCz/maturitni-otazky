@@ -2,6 +2,8 @@
 
 Toto je list všech, kteří se na tomto projektu podíleli.
 
+KOKOT
+
 - [Ondřej Pešek](https://github.com/iTzBoboCz)
 - [Lukáš Koliandr](https://github.com/Lukide0)
 

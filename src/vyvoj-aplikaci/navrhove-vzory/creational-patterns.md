@@ -2,11 +2,9 @@
 
 ## Singleton
 
-- objekt, který může být instancován pouze jednou
-- příkladem může být:
-  - připojení k databázi
-  - nastavení aplikace
-- ```php
+Objekt, který může být instancován pouze jednou. Použijeme například u připojení k databázi nebo nastavení aplikace.
+
+```php
   class Singleton
   {
       private static $instance = NULL;
@@ -23,67 +21,59 @@
           return self::$instance;
       }
   }
-  ```
+```
 
 ## Builder
 
-- objekt se vytváří postupně a ne najednou
-- ```php
+Objekt se vytváří postupně a ne najednou.
+
+```php
   class Burger
   {
       private $_bun;
       private $_ketchup;
-      private $_mustard;
-      private $_cheese;
       private $_salad;
       private $_meat;
 
       public function __construct(
           boolean $bun = false,
           boolean $ketchup = false,
-          boolean $mustard = false,
-          boolean $cheese = false,
           boolean $salad = false,
           boolean $meat = false)
       {
           $this->_bun = $bun;
           $this->_ketchup = $ketchup;
-          $this->_mustard = $mustard;
-          $this->_cheese = $cheese;
           $this->_salad = $salad;
           $this->_meat = $meat;
       }
 
       public function addBun() { $this->_bun = true; return $this; }
       public function addKetchup() { $this->_ketchup = true; return $this; }
-      public function addMustard() { $this->_mustard = true; return $this; }
-      public function addCheese() { $this->_cheese = true; return $this; }
       public function addSalad() { $this->_salad = true; return $this; }
       public function addMeat() { $this->_meat = true; return $this; }
   }
 
-  // najednou vs postupně
-  $burgerA = new Burger(true, false, false, true, true, true);
+  // najednou (klasický způsob)
+  $burgerA = new Burger(true, false, true, true);
 
-  // $burgerA === $burgerB
-  $burgerB = new Burger()->addBun()->addCheese()->addSalad()->addMeat();
-  ```
+  // postupně (použití builder patternu); $burgerA === $burgerB
+  $burgerB = new Burger()->addBun()->addSalad()->addMeat();
+```
 
 ## Prototype
 
-- je to alternativa k dědění tříd
-  - dědí se z objektu a ne ze třídy
-  - dědí se i hodnoty z objektu
-- ```js
-  const zombie = {
-    eatBrains() {
-      return "Yum 🧠";
-    },
-  };
-  zombie.eatBrains();
+Alternativa k dědění tříd. Rozdílem je, že dědíme přímo z objektu, a to i s jeho hodnotami.
 
-  // Prototype
-  const zombieWithName = Object.create(zombie, { name: "Igor" });
-  zombieWithName.eatBrains();
-  zombieWithName.name;
-  ```
+```js
+const zombie = {
+  eatBrains() {
+    return "Yum 🧠";
+  },
+};
+zombie.eatBrains();
+
+// Prototype
+const zombieWithName = Object.create(zombie, { name: "Igor" });
+zombieWithName.eatBrains();
+zombieWithName.name;
+```

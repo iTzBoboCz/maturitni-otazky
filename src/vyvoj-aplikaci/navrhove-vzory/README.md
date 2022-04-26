@@ -2,27 +2,17 @@
 
 ## Co to je?
 
-- je to způsob postupu, dle kterého upravíme náš postup při tvorbě programu
-- není to specifická část kódu, ale obecný koncept pro řešení specifického problému
-- jsou to
-  - ověřené programovací "styly" nebo "postupy"
-  - řešení na mnoho obvyklých problémů při tvorbě softwarovém designu
-- jsou často zaměňovány s algoritmy
-  - protože oba koncepty popisují řešení ke specifickému problému
-  - rozdíl je v tom že
-    - algoritmy jsou jako kuchařka (pevně dané postupy)
-    - vzory jsou jako plán (vidíme výsledek a funkce, ale přesné pořadí záleží na nás)
+Způsoby postupu pro efektivnější/jednodušší řešení některých typů problémů při vývoji softwaru. V podstatě to jsou ověřené programovací styly a postupy.
+
+Bývají často zaměňovány s algoritmy, protože oba koncepty popisují řešení specifického problému. Liší se však v tom, že algoritmy jsou jako kuchařka (pevně dané postupy), zatímco vzory jsou jako plán (vidíme výsledek a funkce, ale přesné pořadí záleží na nás).
+
+Některé návrhové vzory jsou jednoduché a standardní postupy, jen je někdo sepsal, určil pravidla a dal jim název.
 
 ## Proč?
 
-- každou věc můžeme dělat 2 způsoby
-  - funkčním
-  - správným
-- při použití návrhových vzorů je mnohem snažší pro jiného člověka se v kódu lépe zorientovat
-- lepší komunikace s kolegy (např. "Oh, tak použij Singleton na to")
-  - není zapotřebí dlouhé vysvětlování
-- většina návrhových vzorů jsou jednoduché a standardní postupy
-  - někdo jen je sepsal, dal jim název a určil pravidla
+Problémy můžeme díky těmto postupům řešit správně.
+
+Tím, že jsou tyto postupy známé, je mnohem snažší pro jiného člověka se v kódu lépe zorientovat. Můžeme také s kolegy komunikovat konkrétněji (např. "Tak na to použij Singleton.").
 
 ## Z čeho se skládají?
 

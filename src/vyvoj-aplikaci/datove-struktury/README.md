@@ -1,8 +1,8 @@
 # Datové struktury
 
-- každé data jsou reprezentovány datovými typy
-- datatové typy lze také skládat do struktur
-- každá dat. struk. má své operace, které mají svojí čas. náročnost (Big O notation)
+Každá data jsou reprezentována datovými typy. Ty můžeme také skládat do struktur (třídy,..).
+
+Každá datová struktura má své operace, které mají svojí časovou náročnost (Big O notation).
 
 ## Array
 
@@ -20,7 +20,7 @@
 ## Queue
 
 - je to dynamický array
-- vkládá se do něho na principu FIFO (First-In-First-Out)
+- vkládá se do něho na principu FIFO (First In, First Out)
   ```
                     =>
   ╭───┬───┬───┬───┬───┬───┬───┬───┬───╮
@@ -32,7 +32,7 @@
 ## Stack
 
 - je to dynamický array
-- vkládá se do něho na principu LIFO (Last-In-First-Out)
+- vkládá se do něho na principu LIFO (Last In, First Out)
   ```
   ╭───╮
   │ 6 │  < - IN/OUT
@@ -99,16 +99,16 @@ Velikost tohoto stromu je 3 (A -> C -> E je nejdelší cesta k Leaf)
 
 ## Graph (Graf)
 
-- je složen z uzlů (node, vertex),hran (edge, spojuje uzly) a jejich vzájemných incidencí(adjacency)
+- je složen z uzlů (node, vertex), hran (edge, spojuje uzly) a jejich vzájemných incidencí (adjacency)
 - 2 typy
   - neorientovaný graf - hrany nerozlišují směr
   - orientovaný graf - hrany mají určen směr od počátečního do koncového uzlu
     ![](./images/undirectedgraph.png)
 
-## Hash
+## Hash table
 
 - používá se k sestavování asociativních polí, které za pomoci klíče (key) a správné hashovací funkce (hash function) umožňují indexování
-- jde o metodu,která řádově snižuje asymptotickou složitost vyhledávání až na logaritmickou úroveň
+- jde o metodu, která řádově snižuje asymptotickou složitost vyhledávání až na logaritmickou úroveň
 - indexování je hojně používáno například v databázích, kde urychluje vyhledávání
   ![](./images/Hash_table_3_1_1_0_1_0_0_SP.png)
 
@@ -117,9 +117,9 @@ Velikost tohoto stromu je 3 (A -> C -> E je nejdelší cesta k Leaf)
 | Název       | Využití                                                         |
 | ----------- | --------------------------------------------------------------- |
 | Array       | kontakty v mobilu, vytváření blok prvku pro ostatní dat. struk. |
-| Stack       | undo redo                                                       |
+| Stack       | undo a redo                                                     |
 | Queue       | task scheduling, call center, vyvolávání lístků s pořadím       |
-| Linked list | undo redo, předcházení kolizí v hash map                        |
+| Linked list | undo a redo, předcházení kolizí v hash map                      |
 | Tree        | file system                                                     |
 | Graph       | nejkratší možná vzdálenost z bodu A do bodu B                   |
 

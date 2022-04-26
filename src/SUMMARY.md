@@ -75,6 +75,7 @@
     - [Creational patterns](vyvoj-aplikaci/navrhove-vzory/creational-patterns.md)
     - [Structural patterns](vyvoj-aplikaci/navrhove-vzory/structural-patterns.md)
     - [Behavioral patterns](vyvoj-aplikaci/navrhove-vzory/behavioral-patterns.md)
+    - [UML](vyvoj-aplikaci/navrhove-vzory/uml.md)
   - [Techniky sdílení zdrojového kódu](vyvoj-aplikaci/techniky-sdileni-zdrojoveho-kodu/README.md)
     - [Verzovací systémy](vyvoj-aplikaci/techniky-sdileni-zdrojoveho-kodu/verzovaci-systemy.md)
   - [Metodiky vývoje software](vyvoj-aplikaci/metodiky-vyvoje-software/README.md)

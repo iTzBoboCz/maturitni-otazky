@@ -138,6 +138,164 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="datové-struktury"><a class="header" href="#datové-struktury">Datové struktury</a></h1>
+<p>Každá data jsou reprezentována datovými typy. Ty můžeme také skládat do struktur (třídy,..).</p>
+<p>Každá datová struktura má své operace, které mají svojí časovou náročnost (Big O notation).</p>
+<h2 id="array"><a class="header" href="#array">Array</a></h2>
+<ul>
+<li>data jsou poskládány za sebou v paměti
+<pre><code>Pamět
+╭───┬───┬───┬───┬───┬───┬───┬───┬───╮
+│ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │
+╰───┴───┴───┴───┴───┴───┴───┴───┴───╯
+</code></pre>
+</li>
+<li>dělí se na statické a dynamické
+<ul>
+<li>statické mají pevně dannou velikost</li>
+<li>dynamické mají proměnlivý počet prvků</li>
+</ul>
+</li>
+</ul>
+<h2 id="queue"><a class="header" href="#queue">Queue</a></h2>
+<ul>
+<li>je to dynamický array</li>
+<li>vkládá se do něho na principu FIFO (First In, First Out)
+<pre><code>                  =&gt;
+╭───┬───┬───┬───┬───┬───┬───┬───┬───╮
+│ 9 │ 8 │ 7 │ 6 │ 5 │ 4 │ 3 │ 2 │ 1 │
+╰───┴───┴───┴───┴───┴───┴───┴───┴───╯
+  ^ - IN                          ^ - OUT
+</code></pre>
+</li>
+</ul>
+<h2 id="stack"><a class="header" href="#stack">Stack</a></h2>
+<ul>
+<li>je to dynamický array</li>
+<li>vkládá se do něho na principu LIFO (Last In, First Out)
+<pre><code>╭───╮
+│ 6 │  &lt; - IN/OUT
+├───┤
+│ 5 │
+├───┤
+│ 4 │
+├───┤
+│ 3 │
+├───┤
+│ 2 │
+├───┤
+│ 1 │
+╰───╯
+</code></pre>
+</li>
+</ul>
+<h2 id="linked-list"><a class="header" href="#linked-list">Linked List</a></h2>
+<ul>
+<li>je to dat. struk., která má předem neznámou délku</li>
+<li>tato struktura se skládá z uzlů (Nodes)
+<ul>
+<li>uzel vždy má hodnotu a adresu další hodnoty
+<img src="./linked_list.svg" alt="ukázka" /></li>
+<li>první uzel se nazývá Head a poslední Tail</li>
+</ul>
+</li>
+<li>lze vkládat 3 způsoby
+<ul>
+<li>před Head
+<ul>
+<li>nejjednodušší</li>
+<li>vytvoříme uzel, který bude ukazovat na Head</li>
+</ul>
+</li>
+<li>za Tail
+<ul>
+<li>vytvoříme uzel, na který bude ukazovat Tail</li>
+</ul>
+</li>
+<li>mezi 2 uzly
+<ul>
+<li>nejsložitější</li>
+<li>postup
+<ol>
+<li>vytvoříme uzel, který bude ukazovat na určitý uzel (A)</li>
+<li>uzel který je před uzlem (A), tak bude muset nyní ukazovat na náš nový uzel
+<img src="./images/Linkedlist_insert_middle.png" alt="" /></li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>dělí se
+<ul>
+<li>single linked list (jednosměrně spojový seznam)
+<ul>
+<li>uzel ukazuje na další uzel</li>
+</ul>
+</li>
+<li>doubly linked list (obousměrně spojový seznam)
+<ul>
+<li>uzel ukazuje na další i předchozí uzel</li>
+</ul>
+</li>
+<li>circular linked list (kruhový spojový seznam)
+<ul>
+<li>poslední uzel ukazuje na první uzel
+<img src="./images/CircularSinglyLinkedList.png" alt="" /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="tree-strom"><a class="header" href="#tree-strom">Tree (Strom)</a></h2>
+<ul>
+<li>slouží k uchování hierarchicky uspořádaných dat (např. složky a soubory)</li>
+<li>každý strom má Root (kořen), což je uzel</li>
+<li>každý uzel může mít větve na kterých jsou další uzly, pokud uzel nemá žádné větve, tak se nazývá list (Leaf)</li>
+<li>uzel, který není Root ani Leaf se nazívá internal Node (vnitřní uzel)</li>
+<li>existuje mnoho typů stromů
+<ul>
+<li>binární strom (uzel má vždy nejvíc 2 uzly)</li>
+<li>binární vyhledávací strom (stejné jako bin. strom, ale levý uzel má vždy menší hodnotu než pravý)</li>
+</ul>
+</li>
+<li>můžeme u nich měřit jejich hloubku (kolik uzlů je mezi Root a nejvzdálenějším Leaf)</li>
+</ul>
+<pre><code>Velikost tohoto stromu je 3 (A -&gt; C -&gt; E je nejdelší cesta k Leaf)
+            A
+           ╱ ╲
+          B   C
+             ╱ ╲
+            D   E
+</code></pre>
+<h2 id="graph-graf"><a class="header" href="#graph-graf">Graph (Graf)</a></h2>
+<ul>
+<li>je složen z uzlů (node, vertex), hran (edge, spojuje uzly) a jejich vzájemných incidencí (adjacency)</li>
+<li>2 typy
+<ul>
+<li>neorientovaný graf - hrany nerozlišují směr</li>
+<li>orientovaný graf - hrany mají určen směr od počátečního do koncového uzlu
+<img src="./images/undirectedgraph.png" alt="" /></li>
+</ul>
+</li>
+</ul>
+<h2 id="hash-table"><a class="header" href="#hash-table">Hash table</a></h2>
+<ul>
+<li>používá se k sestavování asociativních polí, které za pomoci klíče (key) a správné hashovací funkce (hash function) umožňují indexování</li>
+<li>jde o metodu, která řádově snižuje asymptotickou složitost vyhledávání až na logaritmickou úroveň</li>
+<li>indexování je hojně používáno například v databázích, kde urychluje vyhledávání
+<img src="./images/Hash_table_3_1_1_0_1_0_0_SP.png" alt="" /></li>
+</ul>
+<h2 id="použití"><a class="header" href="#použití">Použití</a></h2>
+<table><thead><tr><th>Název</th><th>Využití</th></tr></thead><tbody>
+<tr><td>Array</td><td>kontakty v mobilu, vytváření blok prvku pro ostatní dat. struk.</td></tr>
+<tr><td>Stack</td><td>undo a redo</td></tr>
+<tr><td>Queue</td><td>task scheduling, call center, vyvolávání lístků s pořadím</td></tr>
+<tr><td>Linked list</td><td>undo a redo, předcházení kolizí v hash map</td></tr>
+<tr><td>Tree</td><td>file system</td></tr>
+<tr><td>Graph</td><td>nejkratší možná vzdálenost z bodu A do bodu B</td></tr>
+</tbody></table>
+<h2 id="náročnost-operací"><a class="header" href="#náročnost-operací">Náročnost operací</a></h2>
+<p><img src="./images/big-o-cheat-sheet-poster.png" alt="" /></p>
 
                     </main>
 

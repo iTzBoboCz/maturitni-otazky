@@ -125,27 +125,37 @@ Hodnocení stránek se dá rozdělit na
 
 viz. obrázek https://moz.com/images/cms/MDES-1230_Learn_Ctr_Google_Ranking_Factor_Influences_Donut_Short.jpg?w=880&auto=compress%2Cformat&fit=crop&dm=1632778221&s=3f3abea5adea9bf469fb930f992238f4
 
-### Responzivní vs Adaptivní web
-
-Weby se dají rozdělit též podle zobrazení
+### Typy zobrazení
 
 #### Fixní design
 
-Web je vytvořen pro jedno rozlišení. Dříve se takhle dělala většina webů (nejčastěji 980px). Pokud zobrazíme tento web na mobilu, bude vypadat stejně jako na počítači, ale zmenšený na velikost displaye. To je většinou obtížně čitelné, takže jste nuceni nazoomovat na část, kterou chcete přečíst a poté v tomto zvětšeném režimu na stránce hledat další informace. Některé nabízí mobilní zobrazení na "m.domena".
+Web je tvořen pro jedno rozlišení. Dříve se takhle dělala většina webů (nejčastěji 980px). Pokud zobrazíme takový web na mobilu, bude vypadat stejně jako na počítači.
 
-#### Fluidní (plovoucí) design
+Protože design není responsivní, jste nuceni nazoomovat na část, kterou si chcete přečíst a poté v tomto zvětšeném režimu na stránce hledat další informace. Některé stránky nabízí fixní mobilní zobrazení na "m.domena" (např. YouTube - m.youtube.com).
 
-Šířka webu se udává relativně (v procentech). Při zobrazení webu na menších rozlišeních se web tedy vždy přizpůsobí v daném poměru. Toto řešení není příliš ideální po mobilní zařízení, obzvláště pak telefony, protože dochází pouze k zmenšení obsahu v daném poměru, tedy pokud máte 3 slupce textu na desktopu, tak je budete mít i na telefonu, kam se ale bohužel kvůli malému rozlišení obsah přehledně nevejde.
+#### Fluid (plovoucí) design
+
+Šířka webu se udává relativně (s pomocí CSS Grid layoutů nebo v procentech, rem, vw,..). Dochází ke zmenšení/zvětšení obsahu v poměru, takže 3 slupce textu na desktopu zůstanou jako 3 i na telefonu.
+
+Problémem je, že obsah stránky se vedle sebe kvůli malému rozlišení nemůže přehledně vejít.
 
 #### Responzivní design
 
-Vychází z principů fluidního designu, ale ještě zde přibývá možnost upravovat jednotlivé bloky pro různé rozlišení (za pomoci tzn. CSS Media Queries) a responsivních obrázků. To znamená, že například na počítači můžeme návštěvníkovi poskytnout 3 sloupce s obsahem, ale na menších rozlišeních např. tablety již pouze 2 sloupce a na mobilu již pouze jeden. Responsivní design tedy využívá detekci rozlišení u klienta v prohlížeči, aby upravil tomuto rozlišení rozvržení bloků na stránce. A také pro různá rozlišení poskytuje různé obrázky, které jsou přizpůsobeny pro dané zařízení. Výhodou responsivního designu je, že se dokáže přizpůsobit web libovolnému rozlišení s jednou HTML šablonou.
+Vychází z principů fluid designu, ale přizpůsobujeme zde jednotlivé bloky pro různá rozlišení pomocí CSS Media Queries a responsivních obrázků (různých rozlišení).
+
+To nám umožňuje na počítači návštěvníkovi obsah přizpůsobit například do 3 sloupců, zatímco na mobilu jen do jednoho.
+
+Detekce rozlišení a přizpůsobení stránky probíhá u klienta v prohlížeči.
+
+Výhodou responsivního designu je, že se dokáže přizpůsobit web libovolnému rozlišení s jednou HTML šablonou.
 
 #### Adaptivní design
 
-Adaptivní design je velice podobný responsivnímu. Na různých zařízeních poskytnete různé rozložení prvků, ale s tím rozdílem, že zde se používá detekce na serveru a do zařízení se posílá již optimální kód a obsah přímo pro dané zařízení. To znamená, že se vytvoří více HTML šablon pro různá zařízení a server rozhodne, která šablona bude poslána do daného zařízení.
-Jak to tedy vypadá v praxi, může vidět na následujícím obrázku.
-Výhodou adaptivního přístupu je to, že do zařízení posíláme jen ty data (HTML, CSS, JS), které opravdu v zařízení chceme zobrazit. Díky tomu může být web rychlejší, protože neposílá všechny data do mobilních zařízení a navíc je možné získat o zařízení mnohem více informací, jako například podporu různých technologií (jako jsou CSS3, HTML5), přítomnost různých doplňků (Java, Flash) a různé podpory API v prohlížeči.
+Detekce zařízení probíhá na serveru (pomocí zaslané HTTP hlavičky [User-Agent](https://developer.mozilla.org/en-US/docs/Glossary/User_agent)).
+
+Od responsivního designu se liší tím, že server spočítá "optimální" layout a klientovi zašle pouze výsledek. Pokud bychom si změnili velikost okna, náš prohlížeč by musel udělat další dotaz na server. Takto funguje například YouTube.
+
+Asi jeho jedinou výhodou je menší objem přenesených dat, protože zasíláme pouze to, co se zobrazí.
 
 ## Aktuální trendy
 

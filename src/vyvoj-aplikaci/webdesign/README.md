@@ -12,31 +12,29 @@ Proces webdesignu začíná u návrhářských programů a končí html, css a j
 
 ## Zásady správného webdesignu
 
-Při tvorbě je potřeba myslet na
+Při tvorbě je potřeba myslet na:
 
 - přístupnost a použitelnost (na všech zařízeních a jde lehce ovládat. Volíme dostatečnou velikost fontu, barvu, kontrast, ... vše tak, aby návštěvník nemusel zbytečně přemýšlet nad významem jeho položek, ani funkcí tlačítek nebo smyslem formuláře – nic by zkrátka nemělo nabourávat uživatelskou zkušenost (UX))
-- informační struktura a intuitivnost (už při návrhu bychom měli promýšlet informační strukturu, třídění informací na webů, pojmenování jednotlivých sekcí a položek v menu, všechny stránky by měli být graficky sjednocené, ... zároveň by měl být web intuitivní - ovládání webu se shoduje s myšlením zákazníka)
-- vzhled a funkčnost (smysluplnost prvků "opravdu musí na stránce být", web je plynulý, mobile first indexing - Google v posledních začal prioritně indexovat mobilní weby,  ...)
-- dodržování stylistických a typografických pravidel (vyvážení a symetrie - každý prvek má svou váhu, opakování - opakování sjednocuje a posiluje design. Opakování je podstatné i mimo web, napříč marketingovými médii..., kontrast - vytvoří asymetrickou rovnováhu v designu webu. Takové prvky vystupují z celkového designu stránky a na uživatele jakoby "vyskočí", bílý prostor - umožňuje jednotlivým prvkům designu webu takzvaně dýchat. Díky většímu bílému prostoru je návštěvník schopen snadněji oddělit prvky designu webu od sebe. Jenom použitím bílého prostoru můžeme dosáhnout vylepšení designu webu z průměrného na nadprůměrný. Držte se zvyklostí - logo, menu, ...)
-- budování důvěryhodnosti
-- Přesvědčivost - využití principů lidského chování k získání konverze
-- Emocionální propojení - využití emocí u návštěvníků
-- Příjemnost - web zanechá u zákazníka kladný pocit -> opakované navštěvování
-- Smysluplnost - web je složen systematicky a smysluplně
+- informační struktura, smysluplnost a intuitivnost (už při návrhu bychom měli promýšlet informační strukturu, třídění informací na webů, pojmenování jednotlivých sekcí a položek v menu, všechny stránky by měli být graficky sjednocené, ... zároveň by měl být web intuitivní - ovládání webu se shoduje s myšlením zákazníka)
+- vzhled a funkčnost (smysluplnost prvků "opravdu musí na stránce být?", web je plynulý, mobile first indexing - Google v posledních začal prioritně indexovat mobilní weby,  ...)
+- dodržování stylistických a typografických pravidel (vyvážení a symetrie - každý prvek má svou váhu, opakování - opakování sjednocuje a posiluje design. Opakování je podstatné i mimo web, napříč marketingovými médii..., kontrast - vytvoří asymetrickou rovnováhu v designu webu. Takové prvky vystupují z celkového designu stránky a na uživatele jakoby "vyskočí", bílý prostor - umožňuje jednotlivým prvkům designu webu takzvaně dýchat. Díky většímu bílému prostoru je návštěvník schopen snadněji oddělit prvky designu webu od sebe. Držte se zvyklostí - logo, menu, ...)
+- budování důvěryhodnosti a přesvědčivosti (využití principů lidského chování k získání konverze)
+- emocionální propojení (využití emocí u návštěvníků) a příjemnost (web zanechá u zákazníka kladný pocit -> opakované navštěvování)
 
 **_Každý web je unikátní_** - mnoho webů pravidla "správného webdesignu porušuje" a i tak jsou poutavé, fungují a mají efektivní výsledek. Hlavní je, aby webové stránky odvyprávěly příběh dané firmy, byly srozumitelné a poutavé.
 
 ## Co je cílem webdesignu?
 
-Hlavním cílem firemní webové stránky není zaujmout krásným designem, ale přivést vám zákazníky. Design je subjektivní a neměřitelný. Návštěvnost, čas na webu, prokliky, ... to vše se dá měřit.
+Hlavním cílem firemní webové stránky není zaujmout krásným designem, ale přivést zákazníky. Design je subjektivní a neměřitelný. Návštěvnost, čas na webu, prokliky, ... to vše se dá měřit.
 Nenechávejte uživatele hádat:
 
 - o čem web je (stručnost je občas lepší jak "originalita")
-- co má návštěvník na webu dělat (získat nové klienty, informovat stávající, prodat, ... řekněte jim to. Ukažte jim, na co kliknout. Dejte na web výraznou výzvu k akci, kterou nemohou přehlédnout.)
-- proč to má dělat (vyjmenujte v čem jste lepší, hmatatelné důkazy, "vaši pračku opravíme do 48 hodin od zavolání!" Viditelnou část webu po příchodu uvidí 100% uživatelů. Nižší části webu jen 60-20%.)
+- co má návštěvník na webu dělat (získat nové klienty, informovat stávající, prodat, ... řekněte a ukažte jim to. Dejte na web výraznou výzvu k akci.)
+- proč to má dělat (vyjmenujte v čem jste lepší, slogan. Viditelnou část webu po příchodu uvidí 100% uživatelů. Nižší části webu jen 60-20%.)
 
-Odstraňte vše co nepřizpívá ke konverzi (zákazník provede požadovanou akci). Pozor na **_rušivé pozadí webu, nejednoznačná hierarchie, špatně čitelné texty nebo nevýrazná výzva k akci jsou často zárukou nižšího počtu konverzí._** Pokud uživatel najde co potřebuje, často to i koupí
-Pokud jsou texty relevantní - udělejte je delší. Zamyslete se, jaké pochyby mohou vaši zákazníci mít a předem je vyvraťte. JASNĚ UKAŽTE, CO NÁVŠTĚVNÍK ZÍSKÁ. Lidi zajímá, co jim můžete nabídnout. Dejte textu srozumitelnost, vizuální hierarchii, jednoznačné a srozumitelné nadpisy (uživatel si přečte nadpis a až pak, když ho zaujme, ve čtení pokračuje), ... pozor na fonty!
+Pozor na **_rušivé pozadí webu, nejednoznačná hierarchie, špatně čitelné texty nebo nevýrazná výzva k akci jsou často zárukou nižšího počtu konverzí._** 
+Pokud jsou texty relevantní - udělejte je delší.
+Dejte textu srozumitelnost, vizuální hierarchii, jednoznačné a srozumitelné nadpisy (uživatel si přečte nadpis a až pak, když ho zaujme, ve čtení pokračuje), ... pozor na fonty!
 
 Testujte, měřte a zkoušejte:
 - Jste schopni do deseti vteřin zjistit o čem web je? Jaké zboží nebo služby nabízí?

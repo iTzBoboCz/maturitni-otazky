@@ -3,6 +3,7 @@
 Webdesign je obor zabývající se návrhem uživatelského rozhraní a vzhledu - "obal prodává a první dojem můžeme udělat jenom jeden".
 Cílem je vytvořit web, který na uživatele zapůsobí předem stanoveným způsobem. Webdesing úzce souvisí se SEO, marketing a copywriting (psaní reklamních a marketingových textů).
 Webdesing definuje:
+
 - vizuální prvky
 - použité technologie
 - obsah
@@ -16,7 +17,7 @@ Při tvorbě je potřeba myslet na:
 
 - přístupnost a použitelnost (na všech zařízeních a jde lehce ovládat. Volíme dostatečnou velikost fontu, barvu, kontrast, ... vše tak, aby návštěvník nemusel zbytečně přemýšlet nad významem jeho položek, ani funkcí tlačítek nebo smyslem formuláře – nic by zkrátka nemělo nabourávat uživatelskou zkušenost (UX))
 - informační struktura, smysluplnost a intuitivnost (už při návrhu bychom měli promýšlet informační strukturu, třídění informací na webů, pojmenování jednotlivých sekcí a položek v menu, všechny stránky by měli být graficky sjednocené, ... zároveň by měl být web intuitivní - ovládání webu se shoduje s myšlením zákazníka)
-- vzhled a funkčnost (smysluplnost prvků "opravdu musí na stránce být?", web je plynulý, mobile first indexing - Google v posledních začal prioritně indexovat mobilní weby,  ...)
+- vzhled a funkčnost (smysluplnost prvků "opravdu musí na stránce být?", web je plynulý, mobile first indexing - Google v posledních začal prioritně indexovat mobilní weby, ...)
 - dodržování stylistických a typografických pravidel (vyvážení a symetrie - každý prvek má svou váhu, opakování - opakování sjednocuje a posiluje design. Opakování je podstatné i mimo web, napříč marketingovými médii..., kontrast - vytvoří asymetrickou rovnováhu v designu webu. Takové prvky vystupují z celkového designu stránky a na uživatele jakoby "vyskočí", bílý prostor - umožňuje jednotlivým prvkům designu webu takzvaně dýchat. Díky většímu bílému prostoru je návštěvník schopen snadněji oddělit prvky designu webu od sebe. Držte se zvyklostí - logo, menu, ...)
 - budování důvěryhodnosti a přesvědčivosti (využití principů lidského chování k získání konverze)
 - emocionální propojení (využití emocí u návštěvníků) a příjemnost (web zanechá u zákazníka kladný pocit -> opakované navštěvování)
@@ -32,11 +33,12 @@ Nenechávejte uživatele hádat:
 - co má návštěvník na webu dělat (získat nové klienty, informovat stávající, prodat, ... řekněte a ukažte jim to. Dejte na web výraznou výzvu k akci.)
 - proč to má dělat (vyjmenujte v čem jste lepší, slogan. Viditelnou část webu po příchodu uvidí 100% uživatelů. Nižší části webu jen 60-20%.)
 
-Pozor na **_rušivé pozadí webu, nejednoznačná hierarchie, špatně čitelné texty nebo nevýrazná výzva k akci jsou často zárukou nižšího počtu konverzí._** 
+Pozor na **_rušivé pozadí webu, nejednoznačná hierarchie, špatně čitelné texty nebo nevýrazná výzva k akci jsou často zárukou nižšího počtu konverzí._**
 Pokud jsou texty relevantní - udělejte je delší.
 Dejte textu srozumitelnost, vizuální hierarchii, jednoznačné a srozumitelné nadpisy (uživatel si přečte nadpis a až pak, když ho zaujme, ve čtení pokračuje), ... pozor na fonty!
 
 Testujte, měřte a zkoušejte:
+
 - Jste schopni do deseti vteřin zjistit o čem web je? Jaké zboží nebo služby nabízí?
 - Je zřejmé, jaký užitek získáte koupí nabízeného zboží nebo služby?
 - Dokážete zjistit, proč si zboží nebo službu koupit raději na vašem webu než u konkurence?
@@ -52,8 +54,10 @@ Testujte, měřte a zkoušejte:
 ## Tvorba www stránek probíhá v krocích
 
 0. krok – strategie webu, návrh řešení
-  - Nejdříve se konzultuje strategii webové prezentace.
-  - Návrh řešení obsahuje návrh provozu webu a harmonogramu vývoje
+
+   - Nejdříve se konzultuje strategii webové prezentace.
+   - Návrh řešení obsahuje návrh provozu webu a harmonogramu vývoje
+
 1. krok – architektura, struktura webu, webdesign
    - vytvoříme architekturu nového webu, která je pak jednoznačným zadáním pro tvorbu prezentace.
    - Na základě zadání se předloží grafický návrh.
@@ -85,16 +89,17 @@ SEO je zkratka anglického „search engine optimization”. V českém prostře
 Hodnocení stránek se dá rozdělit na
 
 Level "doména"
-  - analýza domény: délka doménového jména, TLD rozšíření (top level domain), SSL certifikáty (zabezpečená komunikace), ...
-  - odkazy na web: založen na odkazů a citací webu, ověřuje kvalitu a pravdivost webu, PageRank (ohodnocení stránek 0,25 - nové a méně důležité až 10 důležité stránky, na které se hodně odkazují ostatní weby), ...
-  - analýza klíčových slov: shoda klíčových/často vyskytujících slov a výrazů na stránce s hledaným výrazem, četnost, ...
-  - metrika značky: offline využití webu, zmínky o značce v mediích, data prohlížeče o webové stránce, ...
-Level "stránka"
-  - sociální měřítko: kvalita tweetnutých odkazů, Facebook sdílení, Google, ...
-  - odkazy na stránku: PageRank, Trust metrics, kvalita odkazů pomocí root domén, samotná odkazy, kvalita odkazů z původních stránek, ...
-  - kontrola klíčových slov a kontentu: relevantnost obsahu, optimalizace klíčových slov v kontentu, algoritmus hodnotící score tématu a obsahu + jeho kvalitu, ...
-  - Agnostic kontrola obsahu: délka kontentu, čitelnost, unikátnost, načítací rychlost, strukturace dat, HTTPS, ...
-Level "uživatel": data měření SERP: (Search Engine Results Pages), clickstream data (data o klikání), CTR (Clickthrough rate - prokliknutí), předchozí levely
+
+- analýza domény: délka doménového jména, TLD rozšíření (top level domain), SSL certifikáty (zabezpečená komunikace), ...
+- odkazy na web: založen na odkazů a citací webu, ověřuje kvalitu a pravdivost webu, PageRank (ohodnocení stránek 0,25 - nové a méně důležité až 10 důležité stránky, na které se hodně odkazují ostatní weby), ...
+- analýza klíčových slov: shoda klíčových/často vyskytujících slov a výrazů na stránce s hledaným výrazem, četnost, ...
+- metrika značky: offline využití webu, zmínky o značce v mediích, data prohlížeče o webové stránce, ...
+  Level "stránka"
+- sociální měřítko: kvalita tweetnutých odkazů, Facebook sdílení, Google, ...
+- odkazy na stránku: PageRank, Trust metrics, kvalita odkazů pomocí root domén, samotná odkazy, kvalita odkazů z původních stránek, ...
+- kontrola klíčových slov a kontentu: relevantnost obsahu, optimalizace klíčových slov v kontentu, algoritmus hodnotící score tématu a obsahu + jeho kvalitu, ...
+- Agnostic kontrola obsahu: délka kontentu, čitelnost, unikátnost, načítací rychlost, strukturace dat, HTTPS, ...
+  Level "uživatel": data měření SERP: (Search Engine Results Pages), clickstream data (data o klikání), CTR (Clickthrough rate - prokliknutí), předchozí levely
 
 viz. obrázek https://moz.com/images/cms/MDES-1230_Learn_Ctr_Google_Ranking_Factor_Influences_Donut_Short.jpg?w=880&auto=compress%2Cformat&fit=crop&dm=1632778221&s=3f3abea5adea9bf469fb930f992238f4
 
@@ -103,29 +108,42 @@ viz. obrázek https://moz.com/images/cms/MDES-1230_Learn_Ctr_Google_Ranking_Fact
 #### Fixní design
 
 Web je tvořen pro jedno rozlišení. Dříve se takhle dělala většina webů (nejčastěji 980px). Pokud zobrazíme takový web na mobilu, bude vypadat stejně jako na počítači.
+
 Protože design není responsivní, jste nuceni nazoomovat na část, kterou si chcete přečíst a poté v tomto zvětšeném režimu na stránce hledat další informace. Některé stránky nabízí fixní mobilní zobrazení na "m.domena" (např. YouTube - m.youtube.com).
 
 #### Fluid (plovoucí) design
 
 Šířka webu se udává relativně (s pomocí CSS Grid layoutů nebo v procentech, rem, vw,..). Dochází ke zmenšení/zvětšení obsahu v poměru, takže 3 slupce textu na desktopu zůstanou jako 3 i na telefonu.
+
 Problémem je, že obsah stránky se vedle sebe kvůli malému rozlišení nemůže přehledně vejít.
 
 #### Responzivní design
 
 Vychází z principů fluid designu, ale přizpůsobujeme zde jednotlivé bloky pro různá rozlišení pomocí CSS Media Queries a responsivních obrázků (různých rozlišení).
+
 To nám umožňuje na počítači návštěvníkovi obsah přizpůsobit například do 3 sloupců, zatímco na mobilu jen do jednoho.
+
 Detekce rozlišení a přizpůsobení stránky probíhá u klienta v prohlížeči.
+
 Výhodou responsivního designu je, že se dokáže přizpůsobit web libovolnému rozlišení s jednou HTML šablonou.
 
 #### Adaptivní design
 
 Detekce zařízení probíhá na serveru (pomocí zaslané HTTP hlavičky [User-Agent](https://developer.mozilla.org/en-US/docs/Glossary/User_agent)).
+
 Od responsivního designu se liší tím, že server spočítá "optimální" layout a klientovi zašle pouze výsledek. Pokud bychom si změnili velikost okna, náš prohlížeč by musel udělat další dotaz na server. Takto funguje například YouTube.
+
 Asi jeho jedinou výhodou je menší objem přenesených dat, protože zasíláme pouze to, co se zobrazí.
 
 ## Aktuální trendy
 
-Humorné zpracování stránek, scrool pages s animacemi, horizontální scroolování, scroollytelling, scrolling cards, abstrakce, koláže, rozostření a glass efekt, černá bílá, organicky a nenápadně, 3D efekty, ...
+- humorné zpracování stránek
+- scrollovací stránky s animacemi
+- abstrakce
+- koláže
+- rozostření a glass efekt
+- černá a bílá
+- 3D efekty
 
 ## Zdroje
 

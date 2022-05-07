@@ -75,7 +75,7 @@ Existuje vícero typů nástrojů pro webdesign. Každý má své pro a proti a 
 - Figma, InVision (cloud)
 - Sketch, Adobe XD (desktop)
 
-## Definice
+## UX a UI
 
 ### User Experience (UX)
 
@@ -85,7 +85,7 @@ Na první pohled neviditelný. Návrh produktu/služby tak, aby splnil uživatel
 
 Na první pohled viditelný. Návrh prvků, celku, animací a interakcí tak, aby uživatele vizuálně provedl a naplnil tak UX. Je zaměřen na uživatele, jejich potřeby a cíle. Týká se pouze webů a aplikací.
 
-### SEO (Search Engine Optimization)
+## SEO (Search Engine Optimization)
 
 SEO hodnocení ovlivňuje pořadí výsledků ve vyhledávání.
 
@@ -95,7 +95,7 @@ Některé metriky webu je možné otestovat pomocí technologie Lighthouse v Chr
 
 V českém prostředí se setkáte také s termínem „optimalizace pro vyhledávače”.
 
-#### Doména
+### Doména
 
 V rámci SEO se hodnotí i délka doménového jména, použité TLD (.com, .org, .eu, .cz) a také SSL certifikáty (zabezpečená komunikace).
 
@@ -103,7 +103,7 @@ V rámci SEO se hodnotí i délka doménového jména, použité TLD (.com, .org
 
 Do rankingu nalezených stránek se promítá také četnost klíčových slov na stránce a jejich shoda s hledaným výrazem. Toto je součástí tzv. SERP (Search Engine Results Pages).
 
-#### Stránka
+### Stránka
 
 Stejně jako u domény se zde počítá skóre backlinků, relevance klíčových slov u vyhledávání a , ale tentokrát na úrovni jednotlivých stránek (např. článků).
 
@@ -111,21 +111,21 @@ Dále se zde hodnotí délka obsahu, čitelnost a načítací rychlost (obrázky
 
 Součástí indexu je také popularita, která souvisí s počtem kliknutí na stránku - clickstream data (data o klikání), CTR (Clickthrough rate - prokliknutí).
 
-### Typy zobrazení
+## Typy zobrazení
 
-#### Fixní design
+### Fixní design
 
 Web je tvořen pro jedno rozlišení. Dříve se takhle dělala většina webů (nejčastěji 980px). Pokud zobrazíme takový web na mobilu, bude vypadat stejně jako na počítači.
 
 Protože design není responsivní, jste nuceni nazoomovat na část, kterou si chcete přečíst a poté v tomto zvětšeném režimu na stránce hledat další informace. Některé stránky nabízí fixní mobilní zobrazení na "m.domena" (např. YouTube - m.youtube.com).
 
-#### Fluid (plovoucí) design
+### Fluid (plovoucí) design
 
 Šířka webu se udává relativně (s pomocí CSS Grid layoutů nebo v procentech, rem, vw,..). Dochází ke zmenšení/zvětšení obsahu v poměru, takže 3 slupce textu na desktopu zůstanou jako 3 i na telefonu.
 
 Problémem je, že obsah stránky se vedle sebe kvůli malému rozlišení nemůže přehledně vejít.
 
-#### Responzivní design
+### Responzivní design
 
 Vychází z principů fluid designu, ale přizpůsobujeme zde jednotlivé bloky pro různá rozlišení pomocí CSS Media Queries a responsivních obrázků (různých rozlišení).
 
@@ -135,7 +135,7 @@ Detekce rozlišení a přizpůsobení stránky probíhá u klienta v prohlíže�
 
 Výhodou responsivního designu je, že se dokáže přizpůsobit web libovolnému rozlišení s jednou HTML šablonou.
 
-#### Adaptivní design
+### Adaptivní design
 
 Detekce zařízení probíhá na serveru (pomocí zaslané HTTP hlavičky [User-Agent](https://developer.mozilla.org/en-US/docs/Glossary/User_agent)).
 

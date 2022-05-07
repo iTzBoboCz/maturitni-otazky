@@ -105,7 +105,7 @@ Do rankingu nalezených stránek se promítá také četnost klíčových slov n
 
 ### Stránka
 
-Stejně jako u domény se zde počítá skóre backlinků, relevance klíčových slov u vyhledávání a , ale tentokrát na úrovni jednotlivých stránek (např. článků).
+Stejně jako u domény se zde počítá skóre backlinků a relevance klíčových slov u vyhledávání, ale tentokrát na úrovni jednotlivých stránek (např. článků).
 
 Dále se zde hodnotí délka obsahu, čitelnost a načítací rychlost (obrázky, skripty,..).
 

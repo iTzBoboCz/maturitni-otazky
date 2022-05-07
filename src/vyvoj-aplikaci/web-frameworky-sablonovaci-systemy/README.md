@@ -16,25 +16,27 @@ Výhodou frameworku je též bezpečnost. Většina moderních frameworků se pr
 ## PHP
 
 ### Nette
+
 Český framework (David Grudla). Princip ModelViewPresenter (Presenter ~ Controller). Vestavěný router, DI container, Latte (šablonovací systém)
 
--	Česká komunita, málo rozšířený mimo ČR
--	Stále udržovaný (podpora PHP 8)
--	Osvědčený (použito firmami jako DHL, ESET, Slevomat…)
--	Rozděleno na spoustu individuálních balíčků, spousta 3rd party knihoven (ORM databázová abstrakce, výpis tabulek se stránkováním a filtry, atd.)
+- Česká komunita, málo rozšířený mimo ČR
+- Stále udržovaný (podpora PHP 8)
+- Osvědčený (použito firmami jako DHL, ESET, Slevomat…)
+- Rozděleno na spoustu individuálních balíčků, spousta 3rd party knihoven (ORM databázová abstrakce, výpis tabulek se stránkováním a filtry, atd.)
 
-###  Laravel
+### Laravel
 
 Open source php framework, MVC model, MIT licence. Populární hlavně kvůli -> opírá se o velikány typu Symfony, Composer(nástroj pro správu knihoven a jiných zdrojů v PHP), Eloquent ORM (nástroj v Laravelu pro práci s db) a Blade (šablonovací systém).
 
 Lavarel má mnoho funkcí, zde některé z nich:
+
 - autentizace – kontrola přístupu uživatelů
 - routování – správa, směrování a zpracování dotazů na jednom místě
 - databáze – veškeré nástroje pro komunikaci s databází
 - mail – posílání emailu s přílohami a vloženými soubory
 - sessions – zastává veškeré agendy okolo sessions
--	request validation, error handling (např. formuláře)
--	csrf token pro safu odesílání dat (formuláře)
+- request validation, error handling (např. formuláře)
+- csrf token pro safu odesílání dat (formuláře)
 - caching – kešování používaných dat
 
 ### Symfony
@@ -42,7 +44,7 @@ Lavarel má mnoho funkcí, zde některé z nich:
 PHP framework, vycházející z MVC, opensource, MIT licence, některé jeho součásti využívají nástroje jako Doctrine, Composer, Drupal, Joomla nebo PrestaShop.
 
 - Projekt je standardně rozdělen do jednotlivých aplikací, ty se dále dělí na moduly a ty na jednotlivé akce.
--	Je řešen modulárně (lze instalovat jen takové komponenty, které skutečně potřebujeme = snížení velikosti projektu)
+- Je řešen modulárně (lze instalovat jen takové komponenty, které skutečně potřebujeme = snížení velikosti projektu)
 - Vytváření projektů, aplikací, modulů, mnohá nastavení a údržba se provádí právě přes příkazový řádek (může být problém na sdílených hostinzích).
 
 ## Javascript
@@ -50,23 +52,24 @@ PHP framework, vycházející z MVC, opensource, MIT licence, některé jeho sou
 ### jQuery
 
 Framework, nebo spíše knihovna pro JavaScript
--	Zjednodušuje například manipulaci s HTML elementy, AJAX dotazy a animace
--	V dřívějších dobách byla také užitečná k tomu, aby web ve všech prohlížečích fungoval stejně - různé prohlížeče tehdy často různě spouštěly JavaScript
--	Existuje pro ni hodně pluginů pro jednoduché vytváření HTML elementů
--	V dnešní době se od této knihovny postupně ustupuje - jednodušší věci už jdou jednoduše dělat i v čistém JavaScriptu, a pro složitější věci se používají spíše rozsáhlejší frameworky, jako například React, Angular nebo Vue.
+
+- Zjednodušuje například manipulaci s HTML elementy, AJAX dotazy a animace
+- V dřívějších dobách byla také užitečná k tomu, aby web ve všech prohlížečích fungoval stejně - různé prohlížeče tehdy často různě spouštěly JavaScript
+- Existuje pro ni hodně pluginů pro jednoduché vytváření HTML elementů
+- V dnešní době se od této knihovny postupně ustupuje - jednodušší věci už jdou jednoduše dělat i v čistém JavaScriptu, a pro složitější věci se používají spíše rozsáhlejší frameworky, jako například React, Angular nebo Vue.
 
 ### React
 
 Vyvíjený Facebookem (Mety) + komunitou, optimální pro práci s rychle se měnícími daty, opensource, pro tvorbu uživatelského rozhraní.
 Na rozdíl od různých kompletních frameworků (např. Angular) se tedy soustředí na jednu specifickou oblast. Z hlediska klasické MVC architektury tvoří pouze view.
 
--	základem jsou tzv. komponenty (components): znovupoužitelné HTML elementy se zapouzdřenou funkcionalitou, jejichž skládáním vzniká UI aplikace
-  -	vlastnosti (props)
-  - vnitřní stav (state)
--	tento deklarativní způsob práce s daty aplikace vede k více předvídatelnému chování i lehčímu ladění
--	využívá se např. pro tvorbu tzv. single-page aplikací
--	vykreslování webových stránek na straně klienta (client-side rendering)
--	s využitím Next.JS frameworku umožňuje i server-side rendering
+- základem jsou tzv. komponenty (components): znovupoužitelné HTML elementy se zapouzdřenou funkcionalitou, jejichž skládáním vzniká UI aplikace
+- vlastnosti (props)
+- vnitřní stav (state)
+- tento deklarativní způsob práce s daty aplikace vede k více předvídatelnému chování i lehčímu ladění
+- využívá se např. pro tvorbu tzv. single-page aplikací
+- vykreslování webových stránek na straně klienta (client-side rendering)
+- s využitím Next.JS frameworku umožňuje i server-side rendering
 
 ### Vue
 
@@ -75,9 +78,10 @@ Určený nejenom pro UI, zaměřuje se hlavně na deklarativní renderování a 
 ## CSS
 
 ### Bootstrap
--	Knihovna hotových a nastylovaných HTML komponent pro frontend (používat rovnou, nebo ještě upravit pomocí CSS)
--	Buttony, navigační lišty, prvky formulářů, karty, modální okna, ...
--	Také obsahuje systém grid, který dovoluje jednoduše dělat web responzivni
+
+- Knihovna hotových a nastylovaných HTML komponent pro frontend (používat rovnou, nebo ještě upravit pomocí CSS)
+- Buttony, navigační lišty, prvky formulářů, karty, modální okna, ...
+- Také obsahuje systém grid, který dovoluje jednoduše dělat web responzivni
 
 ### Tailwind
 
@@ -91,19 +95,20 @@ Opensource Python framework, MVC model, BSD licence, snadné vytvoření komplex
 
 ### Flask
 
--	micro framework
--	modulární
+- micro framework
+- modulární
 
 ## Java
 
 Pom.xml (Project Object Model)
--	Obdoba composer.json v PHP
--	V Javě se projekty nazývají artefakty
--	Pom.xml obsahuje model našeho artefaktu včetně závislostí na jiné artefakty
--	Obsahuje informace o buildu, pluginech, ...
-Spring
--	Framework pro jednoduchý vývoj webových aplikací v Javě
--	Pracuje na principu MVC
+
+- Obdoba composer.json v PHP
+- V Javě se projekty nazývají artefakty
+- Pom.xml obsahuje model našeho artefaktu včetně závislostí na jiné artefakty
+- Obsahuje informace o buildu, pluginech, ...
+  Spring
+- Framework pro jednoduchý vývoj webových aplikací v Javě
+- Pracuje na principu MVC
 
 ## C#
 
@@ -111,11 +116,12 @@ Spring
 
 Sada knihoven (řešící obvyklé problémy - bezpečnost, autentizace uživatele, ...), klient-server, program běžící na serveru - výsledek zaslaná web. stránku. Je nástupcem technologie ASP (Active Server Pages) a přímým konkurentem JSP (Java Server Pages).
 Stránku můžeme vytvářet buď pomocí/jsou to odnože od ASP.NET:
+
 - ASP.NET WebForms (obdoba WinForms)
 - ASP.NET MVC
 - **ASP.NET Core** - nejpopulárnější, nejnovější, nahrazuje předchozí zastaralé verze, zabudovaný MVC model, ...
 
-#Sablonovaci systemy
+# Šablonovací systémy
 
 Je to něco jako to, co jsme dělali ve druháku s Vácou na webech. Šablona, do které se nahází data.
 
@@ -124,4 +130,5 @@ Je to něco jako to, co jsme dělali ve druháku s Vácou na webech. Šablona, d
 Šablonovací systém pro PHP, který je zaměřený primárně na bezpečnost. Používá k tomu mimo jiné automatické kontextově sensitivní escapování (Context-Aware Escaping), které rozezná, ve které části dokumentu se výpis dat nachází, a podle toho zvolí správnou escapovací funkci. Escapování je automatické, aby se předešlo chybám vzniklým proto, že na ně programátor zapomene.
 
 ## Twig
+
 Šablonový systém pro programovací jazyk PHP. Svou syntaxi odvozuje od systémů Jinja a Django, opensource, BSD licence. Je distribuován také jako součást softwaru Symfony. Od své verze 8 vydané v roce 2015 jej používá redakční systém Drupal.

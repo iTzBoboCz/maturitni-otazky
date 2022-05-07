@@ -1,57 +1,57 @@
 # Webdesign
 
-Webdesign je obor zabývající se návrhem uživatelského rozhraní a vzhledu - "obal prodává a první dojem můžeme udělat jenom jeden".
-Cílem je vytvořit web, který na uživatele zapůsobí předem stanoveným způsobem. Webdesing úzce souvisí se SEO, marketing a copywriting (psaní reklamních a marketingových textů).
+Webdesign je obor zabývající se návrhem uživatelského rozhraní (UI) a vzhledu webových stránek/aplikací. Jeho cílem je vytvořit návrh webu, který na uživatele zapůsobí předem stanoveným způsobem.
+
+S webdesingem úzce souvisí [SEO](#seo-search-engine-optimization), marketing a copywriting (psaní reklamních a marketingových textů).
+
 Webdesing definuje:
 
 - vizuální prvky
 - použité technologie
 - obsah
-- výkon a účel webu či aplikace
+- výkon
+- účel webu či aplikace
 
-Proces webdesignu začíná u návrhářských programů a končí html, css a javascript kódem. Úkolem webdesignu je seskládat elementy a jejich atributy takovým způsobem, aby udrželi uživatele a aby pro něj bylo jednoduché stránky používat.
+Úkolem webdesignera je seskládat elementy a jejich atributy tak, aby stránky bylo jednoduché používat a aby udržely pozornost uživatele. Po dokončení koncepce webu začínájí pracovat vývojáři.
+
+## Proč?
+
+> "...obal prodává a první dojem můžeme udělat jenom jeden."
 
 ## Zásady správného webdesignu
 
-Při tvorbě je potřeba myslet na:
+Mezi hlavní zásady patří přístupnost (accessibility), která je důležitá pro čtečky a postižené lidi. Dále je důležitá informační struktura (Kde by to uživatel hledal?) a intuitivnost (Jak bude zákazník web ovládat?).
 
-- přístupnost a použitelnost (na všech zařízeních a jde lehce ovládat. Volíme dostatečnou velikost fontu, barvu, kontrast, ... vše tak, aby návštěvník nemusel zbytečně přemýšlet nad významem jeho položek, ani funkcí tlačítek nebo smyslem formuláře – nic by zkrátka nemělo nabourávat uživatelskou zkušenost (UX))
-- informační struktura, smysluplnost a intuitivnost (už při návrhu bychom měli promýšlet informační strukturu, třídění informací na webů, pojmenování jednotlivých sekcí a položek v menu, všechny stránky by měli být graficky sjednocené, ... zároveň by měl být web intuitivní - ovládání webu se shoduje s myšlením zákazníka)
-- vzhled a funkčnost (smysluplnost prvků "opravdu musí na stránce být?", web je plynulý, mobile first indexing - Google v posledních začal prioritně indexovat mobilní weby, ...)
-- dodržování stylistických a typografických pravidel (vyvážení a symetrie - každý prvek má svou váhu, opakování - opakování sjednocuje a posiluje design. Opakování je podstatné i mimo web, napříč marketingovými médii..., kontrast - vytvoří asymetrickou rovnováhu v designu webu. Takové prvky vystupují z celkového designu stránky a na uživatele jakoby "vyskočí", bílý prostor - umožňuje jednotlivým prvkům designu webu takzvaně dýchat. Díky většímu bílému prostoru je návštěvník schopen snadněji oddělit prvky designu webu od sebe. Držte se zvyklostí - logo, menu, ...)
-- budování důvěryhodnosti a přesvědčivosti (využití principů lidského chování k získání konverze)
-- emocionální propojení (využití emocí u návštěvníků) a příjemnost (web zanechá u zákazníka kladný pocit -> opakované navštěvování)
+Web by měl být graficky jednotný a webdesigner by se měl řídit pomocí základních stylistických a typografických pravidel, například těchto:
 
-**_Každý web je unikátní_** - mnoho webů pravidla "správného webdesignu porušuje" a i tak jsou poutavé, fungují a mají efektivní výsledek. Hlavní je, aby webové stránky odvyprávěly příběh dané firmy, byly srozumitelné a poutavé.
+- **vyvážení a symetrie** - každý prvek má svou váhu
+- **opakování** - sjednocuje a posiluje design
+- **kontrast** - prvky vystupují z celkového designu stránky a upoutají uživatelovu pozornost
+
+Důležitá je však i psychologie:
+
+- **emocionální propojení** - využití emocí u návštěvníků
+- **příjemnost** - web zanechá u zákazníka kladný pocit, takže se vrátí
+- **důvěryhodnost** - důležité například u bank a eshopů
+
+Web by se měl na všech zařízeních lehce ovládat. Volíme dostatečnou velikost fontu, barvu, kontrast.
+
+Důležité informace by měly být uživateli zřetelné na první pohled. Viditelnou část webu po příchodu uvidí 100% uživatelů. Nižší části webu jen 60-20%.
+
+Webdesigner by si měl dát pozor na rušivé pozadí webu (např. postranní reklamy na CZC), nejednoznačnou hierarchii, špatně čitelné texty a nevýrazné výzvy k akci.
 
 ## Co je cílem webdesignu?
 
-Hlavním cílem firemní webové stránky není zaujmout krásným designem, ale přivést zákazníky. Design je subjektivní a neměřitelný. Návštěvnost, čas na webu, prokliky, ... to vše se dá měřit.
-Nenechávejte uživatele hádat:
+Hlavním cílem firemní webové stránky není zaujmout krásným designem, ale přivést zákazníky. Design je sice subjektivní a neměřitelný, ale návštěvnost, strávený čas na webu a prokliky změřit můžeme.
 
-- o čem web je (stručnost je občas lepší jak "originalita")
-- co má návštěvník na webu dělat (získat nové klienty, informovat stávající, prodat, ... řekněte a ukažte jim to. Dejte na web výraznou výzvu k akci.)
-- proč to má dělat (vyjmenujte v čem jste lepší, slogan. Viditelnou část webu po příchodu uvidí 100% uživatelů. Nižší části webu jen 60-20%.)
+Návštěvník by měl na webu jednoduše zjistit tyto informace:
 
-Pozor na **_rušivé pozadí webu, nejednoznačná hierarchie, špatně čitelné texty nebo nevýrazná výzva k akci jsou často zárukou nižšího počtu konverzí._**
-Pokud jsou texty relevantní - udělejte je delší.
-Dejte textu srozumitelnost, vizuální hierarchii, jednoznačné a srozumitelné nadpisy (uživatel si přečte nadpis a až pak, když ho zaujme, ve čtení pokračuje), ... pozor na fonty!
+- O čem web je? (stručnost je občas lepší jak originalita)
+- Co tam mohu dělat?
+- Proč to mám dělat? (Proč jsme lepší než konkurence?)
+- Kde najdu informace? (kontakt, obchodní podmínky, ...)
 
-Testujte, měřte a zkoušejte:
-
-- Jste schopni do deseti vteřin zjistit o čem web je? Jaké zboží nebo služby nabízí?
-- Je zřejmé, jaký užitek získáte koupí nabízeného zboží nebo služby?
-- Dokážete zjistit, proč si zboží nebo službu koupit raději na vašem webu než u konkurence?
-- Je na první pohled jasné, co máte udělat pro koupi nabízeného zboží nebo objednávku služby?
-- Jsou nadpis a podnadpis natolik zajímavé, aby vás přiměly k četbě dalšího textu?
-- Působí web důvěryhodně, jsou všechna důležitá tvrzení podepřena nějakým důkazem?
-- Je proces koupě produktů nebo objednání služby jednoduchý a srozumitelný?
-- Je design webu přehledný, neztrácíte se v záplavě nepodstatných informací? Nepůsobí web přeplácaně?
-- Nepostrádá web naopak podstatné informace? Jsou snadno k nalezení?
-- Nabízí web viditelné kontaktní údaje? Lze snadno najít, kdo je provozovatelem webu?
-- Jak web vypadá na různě velkých obrazovkách, včetně tabletů a mobilů? A na nejpoužívanějších webových prohlížečích?
-
-## Tvorba www stránek probíhá v krocích
+## Průběh tvorby stránek
 
 0. krok – strategie webu, návrh řešení
 
@@ -70,8 +70,10 @@ Testujte, měřte a zkoušejte:
 
 ## Technologie a nástroje pro webdesing
 
-Nástroje pro návrh a tvorbu webdesignu Adobe Photoshop, Adobe XD, Figma, Sketch, Invision, ... každý nástroj má své pro a proti a záleží na tom, co od něj očekáváme.
-Základní layout webu jde rychle navrhnout v Adobe XD a následně podrobně zpracovat v Adobe Photoshopu.
+Existuje vícero typů nástrojů pro webdesign. Každý má své pro a proti a záleží na tom, co od něj očekáváme. Některé nejpoužívanější:
+
+- Figma, InVision (cloud)
+- Sketch, Adobe XD (desktop)
 
 ## Definice
 
@@ -83,25 +85,31 @@ Na první pohled neviditelný. Návrh produktu/služby tak, aby splnil uživatel
 
 Na první pohled viditelný. Návrh prvků, celku, animací a interakcí tak, aby uživatele vizuálně provedl a naplnil tak UX. Je zaměřen na uživatele, jejich potřeby a cíle. Týká se pouze webů a aplikací.
 
-### SEO a co hodnotí, k čemu je
+### SEO (Search Engine Optimization)
 
-SEO je zkratka anglického „search engine optimization”. V českém prostředí se používá „optimalizace pro vyhledávače”. SEO hodnocení ovlivňuje pořadí výsledků ve vyhledávání.
-Hodnocení stránek se dá rozdělit na
+SEO hodnocení ovlivňuje pořadí výsledků ve vyhledávání.
 
-Level "doména"
+Vyhledávací enginy (Google, Bing,..) záměrně nezveřejňují svůj algoritmus pro ranking.
 
-- analýza domény: délka doménového jména, TLD rozšíření (top level domain), SSL certifikáty (zabezpečená komunikace), ...
-- odkazy na web: založen na odkazů a citací webu, ověřuje kvalitu a pravdivost webu, PageRank (ohodnocení stránek 0,25 - nové a méně důležité až 10 důležité stránky, na které se hodně odkazují ostatní weby), ...
-- analýza klíčových slov: shoda klíčových/často vyskytujících slov a výrazů na stránce s hledaným výrazem, četnost, ...
-- metrika značky: offline využití webu, zmínky o značce v mediích, data prohlížeče o webové stránce, ...
-  Level "stránka"
-- sociální měřítko: kvalita tweetnutých odkazů, Facebook sdílení, Google, ...
-- odkazy na stránku: PageRank, Trust metrics, kvalita odkazů pomocí root domén, samotná odkazy, kvalita odkazů z původních stránek, ...
-- kontrola klíčových slov a kontentu: relevantnost obsahu, optimalizace klíčových slov v kontentu, algoritmus hodnotící score tématu a obsahu + jeho kvalitu, ...
-- Agnostic kontrola obsahu: délka kontentu, čitelnost, unikátnost, načítací rychlost, strukturace dat, HTTPS, ...
-  Level "uživatel": data měření SERP: (Search Engine Results Pages), clickstream data (data o klikání), CTR (Clickthrough rate - prokliknutí), předchozí levely
+Některé metriky webu je možné otestovat pomocí technologie Lighthouse v Chromium-based prohlížečích (CTRL + I -> Lighthouse) a nebo rovnou na [této stránce od Googlu](https://web.dev/measure/).
 
-viz. obrázek https://moz.com/images/cms/MDES-1230_Learn_Ctr_Google_Ranking_Factor_Influences_Donut_Short.jpg?w=880&auto=compress%2Cformat&fit=crop&dm=1632778221&s=3f3abea5adea9bf469fb930f992238f4
+V českém prostředí se setkáte také s termínem „optimalizace pro vyhledávače”.
+
+#### Doména
+
+V rámci SEO se hodnotí i délka doménového jména, použité TLD (.com, .org, .eu, .cz) a také SSL certifikáty (zabezpečená komunikace).
+
+Čím je na náš web více odkazováno (backlink), tím lépe boduje v pravdivosti. Záleží však také na skóre stránek, které na naši stránku odkazují.
+
+Do rankingu nalezených stránek se promítá také četnost klíčových slov na stránce a jejich shoda s hledaným výrazem. Toto je součástí tzv. SERP (Search Engine Results Pages).
+
+#### Stránka
+
+Stejně jako u domény se zde počítá skóre backlinků, relevance klíčových slov u vyhledávání a , ale tentokrát na úrovni jednotlivých stránek (např. článků).
+
+Dále se zde hodnotí délka obsahu, čitelnost a načítací rychlost (obrázky, skripty,..).
+
+Součástí indexu je také popularita, která souvisí s počtem kliknutí na stránku - clickstream data (data o klikání), CTR (Clickthrough rate - prokliknutí).
 
 ### Typy zobrazení
 

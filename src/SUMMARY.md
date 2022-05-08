@@ -16,6 +16,7 @@
   - [Databáze a databázové systémy (relační – normální formy)](informacni-technologie/databaze-a-databazove-systemy/README.md)
   - [Licence a autorské právo](informacni-technologie/licence-a-autorske-pravo/README.md)
     - [Autorské právo](informacni-technologie/licence-a-autorske-pravo/autorske-pravo.md)
+    - [Dohody](informacni-technologie/licence-a-autorske-pravo/dohody.md)
     - [Licence](informacni-technologie/licence-a-autorske-pravo/licence/README.md)
       - [Svobodné a otevřené](informacni-technologie/licence-a-autorske-pravo/licence/svobodne-a-otevrene.md)
       - [Proprietární](informacni-technologie/licence-a-autorske-pravo/licence/proprietarni.md)

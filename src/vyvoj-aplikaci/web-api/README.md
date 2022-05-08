@@ -2,42 +2,53 @@
 
 Web API – Application Programming Interface for the web
 
-API je způsob vzájemné komunikace 2 počítačů. Jeden pošle žádost o provedení nějaké funkce nebo procedury a druhý počítač mu na to něco odpoví.
+API je způsob vzájemné komunikace 2 programů, respektive stránek nebo například komunikace stránky a serveru. Z webové stránky přijde dotaz na server, ten vrátí nějaká data a stránka tyto data zpracuje a předá uživateli.
 
-Umožňuje využívat jíž naprogramovaná řešení a integrovat je do vlastních webových stránek
+Umožňuje využívat jíž naprogramovaná řešení a integrovat je do vlastních webových stránek.
 
 Slouží k rozšíření funkcionality a automatizaci určitých procedur.
 
 - Stateless
   - Obě strany o sobě nemusí uchovávat žádné informace.
-  - Všechny žádosti a odpovědi jsou nezávislé na ostatních
+  - Žádosti ani odpovědi nejsou závislé na ostatních.
 
-**REST API**
+## REST API
 
 - Representational State Transfer
-- Většina API v dnešní době jsou RESTful což znamená, že se řídí souborem pravidel nebo omezení které se právě jmenují RESTful.
+- Většina API v dnešní době jsou RESTful.
+- Řídí se souborem pravidel nebo omezeními, které se nazývají RESTful.
 - Je standardem pro většinu API vývojářů od začátku 21. století
 - Roy Fielding
-  - V roce 2000 definoval REST ve své disertační práci
+  - V roce 2000 REST API vytvořil
+  - zárověň je jedním z hlavních autorů HTTP
 - Žádost
   - Používá http pro provedení žádosti
-  - Start Line
-    - Metoda
-    - Cesta ke zdroji (URL)
-  - Hlavička (Header)
-    - Accept (V jakém formátu chcete ty data získat)
-    - Authorization (Token pro získání dat)
-    - Connection(keep-alive)
-  - Tělo
-    - Zde jsou umístěny samotný data
-  - Základní metody
-    - GET(Přečíst)
-    - POST(Vytvořit)
-    - PATCH(Upravit)
-    - DELETE(sMAZAT)
+  - Musí obsahovat:
+    - Start Line
+      - Metoda (GET, POST, PATCH, DELETE)
+      - Cesta ke zdroji (URL)
+    - Hlavička (Header)
+      - Accept (Formát dat - JSON, XML a další...)
+      - Authorization (Token pro získání dat)
+      - Connection(keep-alive)
+    - Tělo (Body)
+      - Zde jsou umístěny samotný data
+      - příklad:
+            {
+              "name": "neco",
+              "version": "1.0.0",
+              "description": "REST test"
+            }
+    - Základní metody
+      - GET(Přečíst)
+      - POST(Vytvořit)
+      - PATCH(Upravit)
+      - DELETE(Smazat)
 - Odpověď
   - V horní části zprávy je stavový kód
+    - 1XX –Pouze informační
     - 2XX – Vše je v pořádku
+    - 3XX – Přesměrování
     - 4XX – Chyba u klienta
     - 5XX – Chyba u serveru
   - Hlavička
@@ -47,33 +58,35 @@ Slouží k rozšíření funkcionality a automatizaci určitých procedur.
       - Connection(keep-alive)
   - Tělo
     - Obsahuje data
-      - Většinou data jsou typu JSON
-- **OpenAPI**
+      - Data jsou většinou typu JSON, mohou ovšem být i XML, HTML a další.      
+
+**OpenAPI**
+
   - Je formát popisu API pro REST API.
-  - Soubor OpenAPI umožňuje popsát celou vaši API, včetně
+  - Soubor OpenAPI umožňuje popsat celou vaši API, včetně
     - Dostupné koncové body (/users) a operace na každém koncovém bodě (GET /users, POST /users)
-    - Operační parametry Vstup a výstup pro každou operaci
+    - Operační parametry Vstup a Výstup pro každou operaci
     - Metody autentizace
     - Kontaktní údaje, licence, podmínky použití a další informace.
 
-**SOAP Protokol**
+## SOAP Protokol
 
 - Simple Object Access Protocol
-- Umožnuje posílání XML zpráv jen pouze mezi dvěma aplikacemi (peer to peer)
+- Umožnuje posílání XML zpráv pouze mezi dvěma aplikacemi (peer to peer)
 - Nejčastěji se SOAP používá jako náhrada vzdáleného volání procedur (RPC), tedy v modelu požadavek/odpověď.
 - Složení XML zprávy
 
 | **Element** | **Popis** | **Požadované** |
 | --- | --- | --- |
-| EnvelopeObálka | Identifikuje XML dokument jako SOAP zprávu | Ano |
-| HeaderHlavička | Většinou obsahuje informace, které identifikují uživatele, nějaký data pro přihlášení | Ne |
-| BodyTělo | Hlavní část, v ní se nacházejí nejdůležitější data, jako například jaká služba se vyvolává, předávané parametry | Ano |
-| FaultChyba | Poskytuje informace o chybách, ke kterým došlo při zpracování zprávy | Ne |
+| Envelope (Obálka) | Identifikuje XML dokument jako SOAP zprávu | Ano |
+| Header (Hlavička) | Většinou obsahuje informace, které identifikují uživatele, respektive data pro přihlášení | Ne |
+| Body (Tělo) | Hlavní část, v ní se nacházejí nejdůležitější data, jako například jaká služba se vyvolává, předávané parametry | Ano |
+| Fault (Chyba) | Poskytuje informace o chybách, ke kterým došlo při zpracování zprávy | Ne |
 
 - Příklad zprávy klienta, který vyžaduje informace o produktu s ID 827635
 
 ![](RackMultipart20220506-1-p6m60g_html_7b6981a928485810.png)
-
+**Obrázky uložené na počítači pravděpodobně,...**
 - Odpověď webové služby pro klienta
 
 ![](RackMultipart20220506-1-p6m60g_html_9c3ecf7f987dbe36.png)
@@ -98,7 +111,7 @@ Slouží k rozšíření funkcionality a automatizaci určitých procedur.
 - Vývojářem je Facebook
 - Největší konkurencí je REST
 - Je potřeba specifikovat konkrétní data, která ze serverové části mají přijít na klientskou
-  - Uživatel nedostane data, které nepotřebuje -\&gt; eliminace nepotřebných data
+  - Uživatel nedostane data, které nepotřebuje -&gt; eliminace nepotřebných data
 - Objektové typy (Entrypointy)
   - Query
     - Specifikuje data, se kterými je třeba v rámci procesu pracovat, a současně stanovují podobu vrácené odpovědi
@@ -111,22 +124,23 @@ Slouží k rozšíření funkcionality a automatizaci určitých procedur.
     - Např. zobrazit určitý výpis komentářů
 - Výhody
   - Rychlost a stabilita aplikace
-    - Je zapříčiněno tím, že nemusí vracet zbytečná data
+    - Díky tomu, že nemusí vracet zbytečná data
   - Data jsou validována ještě před vykonáním dotazu
 - Nevýhody
   - Cachování
   - Dlouhé a komplexní dotazy
 - Porovnání s REST
-  - V GraphQL neni možné vytáhnout všechny data z tabulky jako v REST, pokud je potřeba získat všechny atributy získat, musíte je vyjmenovat v dotaze
-    - REST(SQL)
-      - SELECT \* FROM TABLE
-    - GraphQL
-      - {
-        - human(id:&quot;1000&quot;){
-            - name
-            - height
-        - }
-      - }
+  - V GraphQL neni možné vytáhnout všechny data z tabulky jako v REST, pokud je potřeba získat všechny atributy, musíte je jednotlivě vyjmenovat v dotaze:
+
+         REST(SQL)
+           SELECT \* FROM TABLE
+         GraphQL
+           {
+             human(id:&quot;1000&quot;){
+                 name
+                 height
+             }
+           }
 
 Zdroje :
 

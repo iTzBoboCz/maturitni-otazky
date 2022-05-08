@@ -1,5 +1,4 @@
 # Kybernetické útoky a hrozby
-# Kybernetické útoky a hrozby
 
 - [Účel útoků](#účel-útoků)
 

@@ -37,7 +37,7 @@
     - [Chlazení](informacni-technologie/chlazeni-a-pocitacove-skrine/chlazeni.md)
     - [Počítačové skříně](informacni-technologie/chlazeni-a-pocitacove-skrine/pocitacove-skrine.md)
   - [Paměti počítačů](informacni-technologie/pameti-pocitacu/README.md)
-    - [Volatilita](informacni-technologie/pameti-pocitacu/README.md)
+    - [Volatilita](informacni-technologie/pameti-pocitacu/volatilita.md)
     - [ROM a RAM](informacni-technologie/pameti-pocitacu/rom-a-ram.md)
     - [Virtuální paměť](informacni-technologie/pameti-pocitacu/virtualni-pamet.md)
   - [Grafické karty](informacni-technologie/graficke-karty/README.md)

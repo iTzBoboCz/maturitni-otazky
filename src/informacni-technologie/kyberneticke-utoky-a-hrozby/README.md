@@ -1,12 +1,12 @@
 # Kybernetické útoky a hrozby
 
-- [Účel útoků](#účel-útoků)
+- [Účel útoků](#Účel-útoků)
 
 - [Malware](#malware)
 
 - [Typy útoků](#typy-útoků)
 
-- [Útočné strategie](#útočné-strategie)
+- [Útočné strategie](#Útočné-strategie)
 
 ## Pojmy
 

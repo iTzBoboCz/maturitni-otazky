@@ -98,11 +98,7 @@ zranitelnosti sítě pro šíření. Po nakažení se rychle šíří po síti d
 Všechny červi mají podobné vzorce chování - povolení zranitelnosti,
 cestu pro zreplikování a všechny obsahují nějaký payload.
 
-červi jsou zodpovědní za jedny z nejvíce rozšířených útoků. například
-code red (2001) nakazil za 19h přes 300k serverů (viz obrázek)
-
-![](media/image1.png){width="6.267716535433071in"
-height="3.3472222222222223in"}
+Červi jsou zodpovědní za jedny z nejvíce rozšířených útoků. Například Code Red (2001) nakazil za 19h přes 300k serverů.
 
 ### Rootkit
 

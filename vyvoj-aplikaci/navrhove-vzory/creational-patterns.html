@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="cs" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Creational patterns - Maturitní otázky k oboru IT - vývoj aplikací a her na SPŠ na Proseku</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="../../index.html"><strong aria-hidden="true">1.</strong> Úvod</a></li><li class="chapter-item "><a href="../../informacni-technologie/index.html"><strong aria-hidden="true">2.</strong> Informační technologie</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/pocitacova-grafika/index.html"><strong aria-hidden="true">2.1.</strong> Počítačová grafika</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/pocitacova-grafika/rastrova-a-vektorova.html"><strong aria-hidden="true">2.1.1.</strong> Rastrová a vektorová grafika</a></li><li class="chapter-item "><a href="../../informacni-technologie/pocitacova-grafika/2d-a-3d.html"><strong aria-hidden="true">2.1.2.</strong> 2D a 3D grafika</a></li><li class="chapter-item "><a href="../../informacni-technologie/pocitacova-grafika/komprese.html"><strong aria-hidden="true">2.1.3.</strong> Komprese</a></li><li class="chapter-item "><a href="../../informacni-technologie/pocitacova-grafika/graficke-formaty.html"><strong aria-hidden="true">2.1.4.</strong> Grafické formáty</a></li><li class="chapter-item "><a href="../../informacni-technologie/pocitacova-grafika/krivky.html"><strong aria-hidden="true">2.1.5.</strong> Křivky</a></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/algoritmy-funkce-podminky-a-cykly/index.html"><strong aria-hidden="true">2.2.</strong> Algoritmy, funkce, podmínky a cykly</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/algoritmy-funkce-podminky-a-cykly/algoritmy.html"><strong aria-hidden="true">2.2.1.</strong> Algoritmy</a></li><li class="chapter-item "><a href="../../informacni-technologie/algoritmy-funkce-podminky-a-cykly/funkce.html"><strong aria-hidden="true">2.2.2.</strong> Funkce</a></li><li class="chapter-item "><a href="../../informacni-technologie/algoritmy-funkce-podminky-a-cykly/podminky.html"><strong aria-hidden="true">2.2.3.</strong> Podmínky</a></li><li class="chapter-item "><a href="../../informacni-technologie/algoritmy-funkce-podminky-a-cykly/cykly.html"><strong aria-hidden="true">2.2.4.</strong> Cykly</a></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/databaze-a-databazove-systemy/index.html"><strong aria-hidden="true">2.3.</strong> Databáze a databázové systémy (relační – normální formy)</a></li><li class="chapter-item "><a href="../../informacni-technologie/licence-a-autorske-pravo/index.html"><strong aria-hidden="true">2.4.</strong> Licence a autorské právo</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/licence-a-autorske-pravo/autorske-pravo.html"><strong aria-hidden="true">2.4.1.</strong> Autorské právo</a></li><li class="chapter-item "><a href="../../informacni-technologie/licence-a-autorske-pravo/dohody.html"><strong aria-hidden="true">2.4.2.</strong> Dohody</a></li><li class="chapter-item "><a href="../../informacni-technologie/licence-a-autorske-pravo/licence/index.html"><strong aria-hidden="true">2.4.3.</strong> Licence</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/licence-a-autorske-pravo/licence/svobodne-a-otevrene.html"><strong aria-hidden="true">2.4.3.1.</strong> Svobodné a otevřené</a></li><li class="chapter-item "><a href="../../informacni-technologie/licence-a-autorske-pravo/licence/proprietarni.html"><strong aria-hidden="true">2.4.3.2.</strong> Proprietární</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/historie-ict-a-internetu/index.html"><strong aria-hidden="true">2.5.</strong> Historie ICT a internetu</a></li><li class="chapter-item "><a href="../../informacni-technologie/kyberneticke-utoky-a-hrozby/index.html"><strong aria-hidden="true">2.6.</strong> Kybernetické útoky a hrozby</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/kyberneticke-utoky-a-hrozby/malware.html"><strong aria-hidden="true">2.6.1.</strong> Malware</a></li><li class="chapter-item "><a href="../../informacni-technologie/kyberneticke-utoky-a-hrozby/typy-utoku.html"><strong aria-hidden="true">2.6.2.</strong> Typy útoků</a></li><li class="chapter-item "><a href="../../informacni-technologie/kyberneticke-utoky-a-hrozby/utocne-strategie.html"><strong aria-hidden="true">2.6.3.</strong> Útočné strategie</a></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/procesory/index.html"><strong aria-hidden="true">2.7.</strong> Procesory</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/procesory/historie.html"><strong aria-hidden="true">2.7.1.</strong> Historie procesorů</a></li><li class="chapter-item "><a href="../../informacni-technologie/procesory/parametry.html"><strong aria-hidden="true">2.7.2.</strong> Parametry procesorů</a></li><li class="chapter-item "><a href="../../informacni-technologie/procesory/architektury.html"><strong aria-hidden="true">2.7.3.</strong> Architektury procesorů</a></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/architektury-pocitacu/index.html"><strong aria-hidden="true">2.8.</strong> Architektury počítačů</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/architektury-pocitacu/von-neumannovo-schema.html"><strong aria-hidden="true">2.8.1.</strong> Von Neumannovo schéma</a></li><li class="chapter-item "><a href="../../informacni-technologie/architektury-pocitacu/harvardska-architektura.html"><strong aria-hidden="true">2.8.2.</strong> Harvardská architektura</a></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/zakladni-desky-bios-a-efi/index.html"><strong aria-hidden="true">2.9.</strong> Základní desky, BIOS a EFI</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/zakladni-desky-bios-a-efi/zakladni-desky/index.html"><strong aria-hidden="true">2.9.1.</strong> Základní desky</a></li><li class="chapter-item "><a href="../../informacni-technologie/zakladni-desky-bios-a-efi/bios-a-efi/index.html"><strong aria-hidden="true">2.9.2.</strong> BIOS a EFI</a></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/zdroje-a-zalozni-zdroje/index.html"><strong aria-hidden="true">2.10.</strong> Zdroje a záložní zdroje</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/zdroje-a-zalozni-zdroje/zdroje.html"><strong aria-hidden="true">2.10.1.</strong> Zdroje</a></li><li class="chapter-item "><a href="../../informacni-technologie/zdroje-a-zalozni-zdroje/zalozni-zdroje/index.html"><strong aria-hidden="true">2.10.2.</strong> Záložní zdroje</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/zdroje-a-zalozni-zdroje/zalozni-zdroje/offline.html"><strong aria-hidden="true">2.10.2.1.</strong> Off-line</a></li><li class="chapter-item "><a href="../../informacni-technologie/zdroje-a-zalozni-zdroje/zalozni-zdroje/line-interactive.html"><strong aria-hidden="true">2.10.2.2.</strong> Line-interactive</a></li><li class="chapter-item "><a href="../../informacni-technologie/zdroje-a-zalozni-zdroje/zalozni-zdroje/online.html"><strong aria-hidden="true">2.10.2.3.</strong> On-line</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/chlazeni-a-pocitacove-skrine/index.html"><strong aria-hidden="true">2.11.</strong> Chlazení a počítačové skříně</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/chlazeni-a-pocitacove-skrine/chlazeni.html"><strong aria-hidden="true">2.11.1.</strong> Chlazení</a></li><li class="chapter-item "><a href="../../informacni-technologie/chlazeni-a-pocitacove-skrine/pocitacove-skrine.html"><strong aria-hidden="true">2.11.2.</strong> Počítačové skříně</a></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/pameti-pocitacu/index.html"><strong aria-hidden="true">2.12.</strong> Paměti počítačů</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/pameti-pocitacu/volatilita.html"><strong aria-hidden="true">2.12.1.</strong> Volatilita</a></li><li class="chapter-item "><a href="../../informacni-technologie/pameti-pocitacu/rom-a-ram.html"><strong aria-hidden="true">2.12.2.</strong> ROM a RAM</a></li><li class="chapter-item "><a href="../../informacni-technologie/pameti-pocitacu/virtualni-pamet.html"><strong aria-hidden="true">2.12.3.</strong> Virtuální paměť</a></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/graficke-karty/index.html"><strong aria-hidden="true">2.13.</strong> Grafické karty</a></li><li class="chapter-item "><a href="../../informacni-technologie/zobrazovaci-zarizeni/index.html"><strong aria-hidden="true">2.14.</strong> Zobrazovací zařízení</a></li><li class="chapter-item "><a href="../../informacni-technologie/pametova-media/index.html"><strong aria-hidden="true">2.15.</strong> Paměťová média</a></li><li class="chapter-item "><a href="../../informacni-technologie/sitove-modely/index.html"><strong aria-hidden="true">2.16.</strong> Síťové modely</a></li><li class="chapter-item "><a href="../../informacni-technologie/internet-domeny-a-sluzby/index.html"><strong aria-hidden="true">2.17.</strong> Internet, domény a služby</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/internet-domeny-a-sluzby/internet.html"><strong aria-hidden="true">2.17.1.</strong> Internet</a></li><li class="chapter-item "><a href="../../informacni-technologie/internet-domeny-a-sluzby/domeny.html"><strong aria-hidden="true">2.17.2.</strong> Domény</a></li><li class="chapter-item "><a href="../../informacni-technologie/internet-domeny-a-sluzby/sluzby/index.html"><strong aria-hidden="true">2.17.3.</strong> Služby</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/internet-domeny-a-sluzby/sluzby/webhosting.html"><strong aria-hidden="true">2.17.3.1.</strong> Webhosting</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/internetworking/index.html"><strong aria-hidden="true">2.18.</strong> Internetworking (pasivní a aktivní prvky sítí)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/internetworking/pasivni-prvky-siti.html"><strong aria-hidden="true">2.18.1.</strong> Pasivní prvky sítí</a></li><li class="chapter-item "><a href="../../informacni-technologie/internetworking/aktivni-prvky-siti.html"><strong aria-hidden="true">2.18.2.</strong> Aktivní prvky sítí</a></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/webove-technologie-a-stranky/index.html"><strong aria-hidden="true">2.19.</strong> Webové technologie a stránky</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/webove-technologie-a-stranky/programovaci-a-skriptovaci-jazyky.html"><strong aria-hidden="true">2.19.1.</strong> Programovací a skriptovací jazyky</a></li><li class="chapter-item "><a href="../../informacni-technologie/webove-technologie-a-stranky/redakcni-systemy.html"><strong aria-hidden="true">2.19.2.</strong> Redakční systémy</a></li></ol></li><li class="chapter-item "><a href="../../informacni-technologie/cloud-a-egoverment/index.html"><strong aria-hidden="true">2.20.</strong> Cloud a E-goverment</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../informacni-technologie/cloud-a-egoverment/cloud.html"><strong aria-hidden="true">2.20.1.</strong> Cloud</a></li><li class="chapter-item "><a href="../../informacni-technologie/cloud-a-egoverment/e-government.html"><strong aria-hidden="true">2.20.2.</strong> E-government</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../vyvoj-aplikaci/index.html"><strong aria-hidden="true">3.</strong> Vývoj aplikací</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../vyvoj-aplikaci/programovaci-jazyky-a-zpracovani-zdrojoveho-kodu/index.html"><strong aria-hidden="true">3.1.</strong> Programovací jazyky a zpracování zdrojového kódu</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../vyvoj-aplikaci/programovaci-jazyky-a-zpracovani-zdrojoveho-kodu/high-level-a-low-level-jazyky.html"><strong aria-hidden="true">3.1.1.</strong> High-level a low-level jazyky</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/programovaci-jazyky-a-zpracovani-zdrojoveho-kodu/interpreter.html"><strong aria-hidden="true">3.1.2.</strong> Interpreter</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/programovaci-jazyky-a-zpracovani-zdrojoveho-kodu/kompilator.html"><strong aria-hidden="true">3.1.3.</strong> Kompilátor</a></li></ol></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/datove-struktury/index.html"><strong aria-hidden="true">3.2.</strong> Datové struktury</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/databaze-a-sql/index.html"><strong aria-hidden="true">3.3.</strong> Databáze a SQL</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../vyvoj-aplikaci/databaze-a-sql/databaze.html"><strong aria-hidden="true">3.3.1.</strong> Databáze</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/databaze-a-sql/sql.html"><strong aria-hidden="true">3.3.2.</strong> SQL</a></li></ol></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/oop/index.html"><strong aria-hidden="true">3.4.</strong> OOP</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../vyvoj-aplikaci/oop/abstrakce.html"><strong aria-hidden="true">3.4.1.</strong> Abstrakce</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/oop/dedeni.html"><strong aria-hidden="true">3.4.2.</strong> Dědění</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/oop/polymorfismus.html"><strong aria-hidden="true">3.4.3.</strong> Polymorfismus</a></li></ol></li><li class="chapter-item expanded "><a href="../../vyvoj-aplikaci/navrhove-vzory/index.html"><strong aria-hidden="true">3.5.</strong> Návrhové vzory</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../vyvoj-aplikaci/navrhove-vzory/creational-patterns.html" class="active"><strong aria-hidden="true">3.5.1.</strong> Creational patterns</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/navrhove-vzory/structural-patterns.html"><strong aria-hidden="true">3.5.2.</strong> Structural patterns</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/navrhove-vzory/behavioral-patterns.html"><strong aria-hidden="true">3.5.3.</strong> Behavioral patterns</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/navrhove-vzory/uml.html"><strong aria-hidden="true">3.5.4.</strong> UML</a></li></ol></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/techniky-sdileni-zdrojoveho-kodu/index.html"><strong aria-hidden="true">3.6.</strong> Techniky sdílení zdrojového kódu</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../vyvoj-aplikaci/techniky-sdileni-zdrojoveho-kodu/verzovaci-systemy.html"><strong aria-hidden="true">3.6.1.</strong> Verzovací systémy</a></li></ol></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/metodiky-vyvoje-software/index.html"><strong aria-hidden="true">3.7.</strong> Metodiky vývoje software</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../vyvoj-aplikaci/metodiky-vyvoje-software/vodopad.html"><strong aria-hidden="true">3.7.1.</strong> Vodopád</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/metodiky-vyvoje-software/spirala.html"><strong aria-hidden="true">3.7.2.</strong> Spirála</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/metodiky-vyvoje-software/rapid-application-development.html"><strong aria-hidden="true">3.7.3.</strong> Rapid application development</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/metodiky-vyvoje-software/inkrementalni.html"><strong aria-hidden="true">3.7.4.</strong> Inkrementální (přírůstkový) vývoj</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/metodiky-vyvoje-software/agilni/index.html"><strong aria-hidden="true">3.7.5.</strong> Agilní</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../vyvoj-aplikaci/metodiky-vyvoje-software/agilni/scrum.html"><strong aria-hidden="true">3.7.5.1.</strong> SCRUM</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/metodiky-vyvoje-software/agilni/kanban.html"><strong aria-hidden="true">3.7.5.2.</strong> Kanban</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/algoritmy-razeni/index.html"><strong aria-hidden="true">3.8.</strong> Algoritmy řazení</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/formaty-pro-vymenu-dat/index.html"><strong aria-hidden="true">3.9.</strong> Formáty pro výměnu dat (XML, JSON, CSV)</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/navrh-grafickeho-rozhrani-a-prace-s-uzivatelem/index.html"><strong aria-hidden="true">3.10.</strong> Návrh grafického rozhraní a práce s uživatelem</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/gamedesign-a-herni-enginy/index.html"><strong aria-hidden="true">3.11.</strong> Gamedesign a herní enginy</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../vyvoj-aplikaci/gamedesign-a-herni-enginy/unity.html"><strong aria-hidden="true">3.11.1.</strong> Unity</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/gamedesign-a-herni-enginy/unreal-engine.html"><strong aria-hidden="true">3.11.2.</strong> Unreal Engine</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/gamedesign-a-herni-enginy/godot.html"><strong aria-hidden="true">3.11.3.</strong> Godot</a></li></ol></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/webdesign/index.html"><strong aria-hidden="true">3.12.</strong> Webdesign</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/animacni-a-vizualizacni-systemy/index.html"><strong aria-hidden="true">3.13.</strong> Animační a vizualizační systémy</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/web-api/index.html"><strong aria-hidden="true">3.14.</strong> Web API</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/web-javascript/index.html"><strong aria-hidden="true">3.15.</strong> Web - JavaScript</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../vyvoj-aplikaci/web-javascript/nodejs.html"><strong aria-hidden="true">3.15.1.</strong> Node.js</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/web-javascript/typescript.html"><strong aria-hidden="true">3.15.2.</strong> TypeScript</a></li></ol></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/web-frameworky-sablonovaci-systemy/index.html"><strong aria-hidden="true">3.16.</strong> Web - Frameworky, šablonovací systémy</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/zabezpeceni-dat/index.html"><strong aria-hidden="true">3.17.</strong> Zabezpečení dat</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/monetizace-aplikaci/index.html"><strong aria-hidden="true">3.18.</strong> Monetizace aplikací</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/testovani-a-ladeni-aplikaci/index.html"><strong aria-hidden="true">3.19.</strong> Testování a ladění aplikací</a></li><li class="chapter-item "><a href="../../vyvoj-aplikaci/virtualni-realita/index.html"><strong aria-hidden="true">3.20.</strong> Virtuální realita</a></li></ol></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/index.html"><strong aria-hidden="true">4.</strong> Administrace počítačových sítí</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/bezpecnost-firemnich-dat/index.html"><strong aria-hidden="true">4.1.</strong> Bezpečnost firemních dat</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/sprava-dat/index.html"><strong aria-hidden="true">4.2.</strong> Správa dat</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/souborove-systemy/index.html"><strong aria-hidden="true">4.3.</strong> Souborové systémy</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/pocitacove-site-a-opticke-site/index.html"><strong aria-hidden="true">4.4.</strong> Počítačové sítě a optické sítě</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/datova-centra/index.html"><strong aria-hidden="true">4.5.</strong> Datová centra</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/smerovani-a-smerovaci-protokoly/index.html"><strong aria-hidden="true">4.6.</strong> Směrování a směrovací protokoly</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/zabezpeceni-siti/index.html"><strong aria-hidden="true">4.7.</strong> Zabezpečení sítí</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/projektovani-site/index.html"><strong aria-hidden="true">4.8.</strong> Projektování sítě</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/bezdratove-site/index.html"><strong aria-hidden="true">4.9.</strong> Bezdrátové sítě</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/infrastrukturni-sluzby/index.html"><strong aria-hidden="true">4.10.</strong> Infrastrukturní služby</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/domeny-dns-a-postovni-sluzby/index.html"><strong aria-hidden="true">4.11.</strong> Domény, DNS a poštovní služby</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/vzdalene-pristupy/index.html"><strong aria-hidden="true">4.12.</strong> Vzdálené přístupy</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/adresarove-sluzby-a-uzivatele/index.html"><strong aria-hidden="true">4.13.</strong> Adresářové služby a uživatelé</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/souborovy-server/index.html"><strong aria-hidden="true">4.14.</strong> Souborový server</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/webovy-server/index.html"><strong aria-hidden="true">4.15.</strong> Webový server</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/proxy-a-reverzni-proxy-servery/index.html"><strong aria-hidden="true">4.16.</strong> Proxy a reverzní proxy servery</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/virtualizace-kontejnery/index.html"><strong aria-hidden="true">4.17.</strong> Virtualizace, kontejnery</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/struktury-operacnich-systemu/index.html"><strong aria-hidden="true">4.18.</strong> Struktury operačních systémů</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/sprava-procesu/index.html"><strong aria-hidden="true">4.19.</strong> Správa procesů</a></li><li class="chapter-item "><a href="../../administrace-pocitacovych-siti/sprava-pameti/index.html"><strong aria-hidden="true">4.20.</strong> Správa paměti</a></li><li class="spacer"></li></ol></li><li class="chapter-item "><a href="../../contributors.html">Přispěvatelé</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Maturitní otázky k oboru IT - vývoj aplikací a her na SPŠ na Proseku</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/iTzBoboCz/maturitni-otazky" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="creational-patterns"><a class="header" href="#creational-patterns">Creational patterns</a></h1>
+<h2 id="singleton"><a class="header" href="#singleton">Singleton</a></h2>
+<p>Objekt, který může být instancován pouze jednou. Použijeme například u připojení k databázi nebo nastavení aplikace.</p>
+<pre><code class="language-php">  class Singleton
+  {
+      private static $instance = NULL;
+
+      protected function __construct() { }
+
+      public static function getInstance() : Singleton
+      {
+          if (self::$instance === NULL)
+          {
+              self::$instance = new static();
+          }
+
+          return self::$instance;
+      }
+  }
+</code></pre>
+<h2 id="builder"><a class="header" href="#builder">Builder</a></h2>
+<p>Objekt se vytváří postupně a ne najednou.</p>
+<pre><code class="language-php">  class Burger
+  {
+      private $_bun;
+      private $_ketchup;
+      private $_salad;
+      private $_meat;
+
+      public function __construct(
+          boolean $bun = false,
+          boolean $ketchup = false,
+          boolean $salad = false,
+          boolean $meat = false)
+      {
+          $this-&gt;_bun = $bun;
+          $this-&gt;_ketchup = $ketchup;
+          $this-&gt;_salad = $salad;
+          $this-&gt;_meat = $meat;
+      }
+
+      public function addBun() { $this-&gt;_bun = true; return $this; }
+      public function addKetchup() { $this-&gt;_ketchup = true; return $this; }
+      public function addSalad() { $this-&gt;_salad = true; return $this; }
+      public function addMeat() { $this-&gt;_meat = true; return $this; }
+  }
+
+  // najednou (klasický způsob)
+  $burgerA = new Burger(true, false, true, true);
+
+  // postupně (použití builder patternu); $burgerA === $burgerB
+  $burgerB = new Burger()-&gt;addBun()-&gt;addSalad()-&gt;addMeat();
+</code></pre>
+<h2 id="prototype"><a class="header" href="#prototype">Prototype</a></h2>
+<p>Alternativa k dědění tříd. Rozdílem je, že dědíme přímo z objektu, a to i s jeho hodnotami.</p>
+<pre><code class="language-js">const zombie = {
+  eatBrains() {
+    return &quot;Yum 🧠&quot;;
+  },
+};
+zombie.eatBrains();
+
+// Prototype
+const zombieWithName = Object.create(zombie, { name: &quot;Igor&quot; });
+zombieWithName.eatBrains();
+zombieWithName.name;
+</code></pre>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../vyvoj-aplikaci/navrhove-vzory/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../../vyvoj-aplikaci/navrhove-vzory/structural-patterns.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../vyvoj-aplikaci/navrhove-vzory/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../../vyvoj-aplikaci/navrhove-vzory/structural-patterns.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

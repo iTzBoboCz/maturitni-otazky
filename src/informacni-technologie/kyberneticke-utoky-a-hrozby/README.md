@@ -1,12 +1,6 @@
 # Kybernetické útoky a hrozby
 
-- [Účel útoků](#Účel-útoků)
-
-- [Malware](#malware)
-
-- [Typy útoků](#typy-útoků)
-
-- [Útočné strategie](#Útočné-strategie)
+Kybernetické útoky mají obvykle dva cíle - získat něco (informace, peníze) a nebo cíl poškodit (zničit data, přerušit komunikaci...). Toho lze dosáhnout mnoha způsoby.
 
 ## Pojmy
 
@@ -25,10 +19,6 @@
     - nelegální
     - díry v systémech nahlašují vlastníkovi
       - někdy žádají o menší částku peněz za opravení této díry
-
-## Účel útoků
-
-Kybernetické útoky mají obvykle dva cíle - získat něco (informace, peníze) a nebo cíl poškodit (zničit data, přerušit komunikaci...). Toho lze dosáhnout mnoha způsoby.
 
 ## Útočné strategie
 

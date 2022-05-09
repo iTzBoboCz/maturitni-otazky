@@ -4,11 +4,11 @@
 
 ![](./images/von-neumannovo-schema.png)
 
-- existuje instrukční sada počítače, ve které je psán program
-- protože je program uložen v paměti, je možné ho za běhu modifikovat nebo jinak využívat => s instrukcemi lze zacházet jako s daty
-  - myšlenkou bylo umožnit „samopro-gramování" počítačů, běžně využíváno při ladění programů nebo v překladačích
-- instrukce jsou zpracovávány sekvenčné
-- zpracováván pouze jeden program, nikoliv více zároveň
+Program je psán v nějaké instrukční sadě.
+
+Protože je program uložen v paměti, je možné ho za běhu modifikovat nebo jinak využívat => s instrukcemi lze zacházet jako s daty. Myšlenkou bylo umožnit „samo-programování" počítačů, běžně využíváno při ladění programů nebo v překladačích.
+
+Instrukce jsou zpracovávány sekvenčné, ale program je zpracován pouze jeden v daný okamžik.
 
 ### John Ludwig Von Neumann
 

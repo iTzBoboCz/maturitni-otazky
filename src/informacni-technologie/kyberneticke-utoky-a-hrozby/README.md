@@ -28,47 +28,52 @@
 
 ## Účel útoků
 
-Kybernetické útoky mají obvykle dva cíle. Buď získat něco (informace,
-peníze), nebo cíl poškodit (zničit data, přerušit komunikaci...). Toho
-lze dosáhnout mnoha způsoby.
+Kybernetické útoky mají obvykle dva cíle - získat něco (informace, peníze) a nebo cíl poškodit (zničit data, přerušit komunikaci...). Toho lze dosáhnout mnoha způsoby.
 
 ## Malware
 
-jakýkoliv škodlivý kód, který má za cíl učinit škodu
+Malwarem může být jakýkoliv škodlivý kód, který má za cíl učinit škodu.
 
 ### Spyware
 
-malware určený ke sledování uživatele. Obvykle sleduje aktivitu,
+Malware určený ke sledování uživatele. Obvykle sleduje aktivitu,
 stisknuté klávesy a sběr dat. Díky tomu se k útočníkovi mohou dostat
 vaše hesla nebo cokoliv, co zadáváte do pc. Obvykle také upravuje
-nastavení bezpečnosti, aby nebyl odhalen. Do počítače se nejčastěji
+nastavení bezpečnosti, aby nebyl odhalen.
+
+Do počítače se nejčastěji
 dostává jako součást legitimního software nebo jako součást trojanu.
 
 ### Adware
 
-malware určený k zobrazování reklam. Z toho má pak utočník peněžní zisk,
+Malware určený k zobrazování reklam. Z toho má pak utočník peněžní zisk,
 bězně se vyskytuje společně se spyware.
 
 ### Ransomware
 
-od slova ransom (výkupné). Zašifruje disk počítače a za úplatu jej opět
+Pojmenován od slova ransom (výkupné). Zašifruje disk počítače a za úplatu jej opět
 odemkne. Obvykle využívá systémové zranitelnosti pro uzamčení systému,
-šíří se stažením nebo náhodnou flashkou (viz ta nemocnice v česku).
+šíří se stažením nebo náhodnou flashkou (např. napadení nemocnic v Benešově a Brně).
 
 Ransomware je velmi efektivní pro velké budovy, protože pokud se dostne
 do vnitřní sítě, tak se dokáže snadno šířit (pokud síť nění dobře
-zabepečená). Pokud máte napříkad nemocnici, která je najednou bez
-počítačů, tak jste poměrně v háji a začnete zvažovat zaplacení...
-zašifrovaný disk lze jen těžko odšifrovat, takže jediná záchrana je
+zabepečená).
+
+Pokud řídíte napříkad nemocnici, která je najednou bez
+počítačů, tak jste poměrně v háji a začnete zvažovat zaplacení výkupného, protože
+zašifrovaný disk lze jen těžko dešifrovat. Jediná záchrana je
 obnovit zálohy, nebo najít chybu v samotném viru pomocí reverzního
-inženýrství (to je ještě težší).
+inženýrství (což je ještě težší).
 
 ### Scareware
 
-malware, který má za cíl donutit uživatele vykonat akci na bázi strachu
+Malware, který má za cíl donutit uživatele vykonat akci na bázi strachu.
 
-- viz reklamy na netu ("váš systém je nakažen, klikněte zde pro
-  odstranění problému"). Po kliknutí se systém nakazí jiným malware...
+Spadají sem například reklamy na internetu typu:
+
+> „Váš systém je nakažen, klikněte zde pro odstranění problému.“
+
+Po kliknutí se systém nakazí jiným malwarem.
 
 Pro lidi, kteří nejsou poprvé u počítače to není moc velká hrozba, ale
 pokud jste důchodyně, nebo tak podobně, tak je velká šace, že tento typ
@@ -76,34 +81,29 @@ pokud jste důchodyně, nebo tak podobně, tak je velká šace, že tento typ
 
 ### Bot
 
-malware určený k automatickému vykonávání určených akcí. Počítači je
+Malware určený k automatickému vykonávání určených akcí. Počítači je
 jinak neškodný, ale při aktivaci může vykonávat jisté online akce.
-Obvykle je součástí botnetu (síť několika botů). Pak slouží například
-pro vykonání DDoS útoku.
+
+Obvykle je součástí botnetu (síť několika botů), kde může sloužit například k vykonání DDoS útoku.
 
 ### Virus
 
-škodlivý kód, který je obvykle součástí jiné spustitelné aplikace
-(cracknuté hry například). [Pro spuštění potřebuje akci uživatele]{.ul}.
-Viry mohou být neškodné (mohou zobrazovat obrázky nebo cokoliv jiného
-pro vystrašení - trolling) nebo mohou vážně poškodit OS, smazat data,
-atp. Viry mohou mutovat, aby se vyhnuli odhalení. Většina se do pc
-dostane stažením nelegální kopie sw, nebo pomocí přenosného média (CD,
-Flash disk...)
+Škodlivý kód, který je obvykle součástí jiné spustitelné aplikace (např. cracknuté hry). Pro spuštění potřebuje akci uživatele.
+
+Viry mohou být neškodné (mohou zobrazovat obrázky nebo cokoliv jiného pro vystrašení - trolling) nebo mohou vážně poškodit OS či smazat data. Viry mohou mutovat, aby se vyhnuly odhalení.
+
+Většina se do pc dostane stažením nelegální kopie sw nebo pomocí přenosného média (CD, Flash disk,...).
 
 ### Červ
 
-malware, který se sám replikuje nezávysle na uživateli, využívá
-zranitelnosti sítě pro šíření. Po nakažení se rychle šíří po síti dál.
-Všechny červi mají podobné vzorce chování - povolení zranitelnosti,
-cestu pro zreplikování a všechny obsahují nějaký payload.
+Malware, který se sám replikuje nezávisle na uživateli, využívá zranitelnosti sítě pro šíření. Po nakažení se rychle šíří po síti dál.
 
+Všechny červi mají podobné vzorce chování - povolení zranitelnosti, cestu pro zreplikování a obsahují nějaký payload.
 Červi jsou zodpovědní za jedny z nejvíce rozšířených útoků. Například Code Red (2001) nakazil za 19h přes 300k serverů.
 
 ### Rootkit
 
-malware navržený s cílem vytvořit backdoor v systému. (backdoor = skrytý
-vstup do systému, například otevřené porty a sw pro vzdálený přístup).
+Malware navržený s cílem vytvořit backdoor[^backdoor] v systému.
 Většina rootkitů využívá zranitelnosti
 
 ### Trojan
@@ -112,6 +112,8 @@ malware maskující se za jiný program. Svoje činnosti maskuje za činnosti
 vyžádané (například instalace aplikace). Využívá jemu přidělených práv,
 když uživatel spustí jeho kód. Od viru se liší tím, že se váže na
 nespustitelné soubory.
+
+[^backdoor]: backdoor = skrytý vstup do systému, například otevřené porty a sw pro vzdálený přístup).
 
 ## Typy útoků
 
@@ -138,98 +140,76 @@ Sociální inženýrství je v dnešní době nejsilnější/nejefektivnější 
 
 #### Phishing
 
-druh sociálního inženýrství. Princip je odesílání emailu a vydávání se za něhoko jiného. Cílem může být nainstalování software nebo sdílení osobních informací.
+Druh sociálního inženýrství, jehož principem je odesílání emailu a vydávání se za něhoko jiného. Cílem může být nainstalování software nebo sdílení osobních informací.
 
 ##### Spear phishing
 
-lepší verze phishingu. Je cílená na konkrétní osobu, útok probíhá
-prvotním zjišťováním informací o určené osobě. Poté útočník využije tyto
-informace a vytvoří útok specificky pro tuto osobu. Příklad - cíl se
-zajímá o auta, tak se útočník přidá do stejné FB skupiny a pošle cíli
-nabídku na prodej auta s odkazem. Odkaz povede na stránku obsahující
-zavirovaný obrázek... to povede k nakažení cíle.
+Lepší verze phishingu, která je cílená na konkrétní osobu.
+
+Útok probíhá prvotním zjišťováním informací o určené osobě. Poté útočník využije tyto informace a vytvoří útok specificky pro tuto osobu. Příklad - cíl se zajímá o auta, tak se útočník přidá do stejné FB skupiny a pošle cíli nabídku na prodej auta s odkazem. Odkaz povede na stránku obsahující zavirovaný obrázek, což povede k nakažení cíle.
 
 ##### Baiting
 
-sociální inženýrství soustředící se na nálákání cíle a vzbuzení jeho
-zvědavosti. Nejčastější typ útoku je zanechání přenosného média někde na
+Sociální inženýrství soustředící se na nálákání cíle a vzbuzení jeho zvědavosti.
+
+Nejčastějším případem je zanechání přenosného média někde na
 veřejném místě. Po zasunutí média do pc je cíl infikován malwarem.
 
 ### Password cracking (Bruteforce)
 
-typ útoku, který zkouší každou kombinaci k prolomení hesla. Lze využít
-třeba k prolomení hesla do šifrovaného souboru, účtu, WiFi. Samotný útok
-není moc efektivní, trvá dlouho a spoléhá na raw výkon počítače, než na
-zranitelnost systému. Útok lze usnadnit využítím seznamu hesel
-(wordlist). Tyto seznamy lze stáhnout na internetu a obvykle jde o často
-používaná hesla a odcizená hesla. Nyní nejčetnější seznam se nazývá
-"RockYou.txt" a obsahuje 32 milionů hesel.
+Typ útoku, který zkouší každou kombinaci k prolomení hesla. Lze využít třeba k prolomení hesla do šifrovaného souboru, účtu, WiFi. Samotný útok není moc efektivní, trvá dlouho a spoléhá na raw výkon počítače, než na zranitelnost systému.
+
+Útok lze usnadnit využítím seznamu hesel (wordlist). Tyto seznamy lze stáhnout na internetu a obvykle jde o často používaná hesla a odcizená hesla. Nyní nejčetnější seznam se nazývá "RockYou.txt" a obsahuje 32 milionů hesel.
 
 #### Něco málo k bezpečnosti hesel
 
-k vytvoření účtu potřebujete heslo a to má obvykle nějaké parametry (8
-znaků, velké a malé písmeno, čislo a speciální symbol...). Tímto ale
-zároveň dávají nápovědu, co vše heslo musí obsahovat, abych ho prolomil.
-Tudíž to není moc bezpečné... nejbezpečnější je, stanovit minimální
-délku (například 16 znaků), protože to je na bruteforce hodně.
+K vytvoření účtu potřebujete heslo a to má obvykle nějaké parametry (8
+znaků, velké a malé písmeno, čislo a speciální symbol...).
 
-Dále se dělá, že hesla nesmí obsahovat slova a při zadávání hesla je
-heslo ověřováno se slovníkem. To také ale není bezpečné, protože
-uživatelé si to heslo pak nebudou pamatovat, takže si ho někam napíší...
-nejlépe na papírek a přilepí na monitor. Proto je opět nejbezpečnější
-mít dlouhé, ale ne moc složité heslo, než mít super silné heslo, ale mít
-ho napsané na papíře u monitoru.
+Tyto informace jsou nápomocné ale i hackerovi - ví, co heslo musí obsahovat, aby ho prolomil. Nejbezpečnější je stanovit větší minimální
+délku (například 16 znaků), protože tak by bruteforce trval moc dlouho.
+
+Dále se dělá, že hesla nesmí obsahovat slova a při zadávání hesla je heslo ověřováno se slovníkem. To také ale není bezpečné, protože uživatelé si to heslo pak nebudou pamatovat, takže si ho někam napíší (papírek, který si přilepí na monitor). Proto je opět nejbezpečnější mít dlouhé, ale ne moc složité heslo, než mít super silné heslo, ale mít ho napsané na papíře u monitoru.
 
 ### Exploiting
 
-využívání zranitelností je jedna z nejčastějších metod útoků. Spoléhá na
-nalezení chyby v kódu OS nebo specifické aplikace, protokolu... ke
-zranitelnosti se útočník dostane oskenováním cílového počítače a
-zjištěním co nejvíce informací. Do relevantích informací patří - os a
-jeho verze, běžící služby a jejich verze, otevřené porty... po zjistění
-těchto informací útočník vyhledá, zda pro ně už neexistuje nějaký
-exploit (viz
-[[https://www.exploit-db.com/]{.ul}](https://www.exploit-db.com/) ),
-pokud ano, tak ho útočník využije a dostane se třeba ke vzdálenému
-přístupu.
+Využívání zranitelností je jedna z nejčastějších metod útoků. Spoléhá na nalezení chyby (v kódu OS, specifické aplikace či protokolu).
+
+Ke zranitelnosti se útočník dostane oskenováním cílového počítače a zjištěním co nejvíce informací (os a jeho verze, běžící služby a jejich verze, otevřené porty).
+
+Po zjistění relevantních informací útočník vyhledá, zda pro ně už neexistuje nějaký exploit (viz [https://www.exploit-db.com/](https://www.exploit-db.com/)). Pokud ano, tak ho útočník využije a dostane se třeba ke vzdálenému přístupu.
 
 #### Příklady
 
 - **hack herních konzolí** - po nalezení chyby v os je možné instalovat vlastní SW
 
-- **intel meltdown** - hardware zranitelnost intel procesorů. Jde o race condition (popsáno pozdeji) mezi zadáváním instrukcí a ověřením práv.. (moc dlouhé na popis)
+- **intel meltdown** - Hardware zranitelnost Intel procesorů. Jde o race condition (popsáno pozdeji) mezi zadáváním instrukcí a ověřením práv.
 
-- **shellshock** - exploit v unixu, jde o neautorizované spouštění příkazů v BASH. TLDR - pokud byl kód přidán na konec proměnné, tak byl vykonán a to už bez ověření práv. Je to jedna z nejznámějších bezpečnostích chyb. Objevena byla v roce 2014, ale v systému byla již od roku 1992.
+- **shellshock** - Exploit v unixu, jde o neautorizované spouštění příkazů v BASH. Pokud byl kód přidán na konec proměnné, tak byl vykonán a to už bez ověření práv. Je to jedna z nejznámějších bezpečnostích chyb. Objevena byla v roce 2014, ale v systému byla již od roku 1992.
 
 ### Denial of service (DoS)
 
-druh síťového útoku. Jde o flood útok, kdy útočník z jednoho počítače
-odesílá velký počet bezúčelných paketů. Cílem útoku je znemožnit přístup
-k určité službě a tím zamezit jejímu použití (ztráta peněz cílové
-společnosti). DoS útoky jsou snadné na provedení a proto představují
-velký risk.
+Druh síťového útoku. Jde o flood útok, kdy útočník z jednoho počítače odesílá velký počet bezúčelných paketů.
+
+Cílem útoku je znemožnit přístup k určité službě a tím zamezit jejímu použití (ztráta peněz cílové společnosti).
+
+DoS útoky jsou snadné na provedení a proto představují velký risk.
 
 #### Typy
 
-- **kvantita** - cíl zahlcen tolika požadavky, že nezvládne zpracovat
+- **kvantita** - Cíl zahlcen tolika požadavky, že nezvládne zpracovat
   další.
 
-- **špatně formátovaný paket** - paket je formátován tak, že cíl nedokáže
-  paket zpracovat (obsahuje chyby, errory...). Cílové zařízení je proto
-  zmatené a může crashnout.
+- **špatně formátovaný paket** - Paket je formátován tak, že jej cíl nedokáže zpracovat (obsahuje chyby). Cílové zařízení je proto zmatené a může crashnout.
 
 ### Distributed DoS (DDoS)
 
-zjednodušeně jde o koordinovaný DoS z více zdrojů. Obvykle je proveden
-pomocí botnetu složeného ze "zombie počítačů". (nakažené pc bot
-malwarem, takže vykonávají akce útočníka)
+Zjednodušeně jde o koordinovaný DoS z více zdrojů. Obvykle je proveden pomocí botnetu složeného ze "zombie počítačů" (nakažené pc bot
+malwarem, takže vykonávají akce útočníka).
 
 ### Man-in-the-middle (MITM)
 
-útok, během kterého útočník naruší komunikaci svým zařízením a
-odposlouchává/upravuje komunikaci. Útoku lze snadno zamezit šifrováním
-komunikace, ale pokud útoční zachytí výměnu klíčů, tak je komunikace
-prozrazena.
+Útok, během kterého útočník naruší komunikaci svým zařízením a odposlouchává/upravuje komunikaci. Lze mu snadno předejít šifrováním komunikace. Pokud ale útočník zachytí výměnu klíčů, tak je komunikace prozrazena.
 
 **nejčastější druhy:**
 
@@ -244,18 +224,15 @@ na webu tak, aby vracel například všechny záznamy (leak celé DB). Toho
 lze docílit přidáním vždy správné podmínky (\... OR 1 = 1). To vrátí vše
 z tabulky.
 
-### SEO poisoning
+### SEO poisoning/Spamdexing
 
-otrávení search enginu. Útočník může uměle zlepšit výkonnost podvodné
-stránky obsahující malware, aby byla častěji zobrazována = více navštěv
-= více lidí, kteří se mohou nakazit
+Útočník může uměle zlepšit vyhledávací skóre podvodné stránky obsahující malware, aby byla častěji zobrazována. Více navštěv = více lidí, kteří se mohou nakazit.
 
 ## Útočné strategie
 
 ### Blended attack
 
-kombinace několika útoků najednou, je potřebný pro více komplexní útoky,
-používá se prakticky všude.
+Kombinace několika útoků najednou, je potřebný pro více komplexní útoky. Používá se prakticky všude.
 
 **příklady:**
 
@@ -264,8 +241,7 @@ používá se prakticky všude.
 
 ### Kill chain
 
-struktura útoku. Obsahuje části obvykle potřebné pro správné provedení
-útoku.
+Struktura útoku. Obsahuje části obvykle potřebné pro správné provedení útoku.
 
 #### Útok
 

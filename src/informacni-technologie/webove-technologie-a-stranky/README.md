@@ -26,6 +26,7 @@ URL kromě domény, https, ... může obsahovat i:
 Značkovací jazyk vkládá do textu dokumentu další informace o vlastním textu, kombinuje text a informaci o textu, existuje od roku 1990 a nejnovější verze HTML5. . Značkovací jazyky se využívají především pro přenos informací (dat) mezi počítači. Jsou dobře přenosné mezi různými operačními systémy (nejsou na žádném OS závislé). Založen na DOM (Document Object Model),
 
 File API
+
 - Velikost nahrávaného souboru není omezena serverem (soubor se automaticky rozdělí a opět složí)
 - umožňuje jak nahrávat neomezené množství souborů najednou (dříve to bylo možné pouze pomocí pluginu Flash)
   Fullscreen API
@@ -37,17 +38,17 @@ File API
 
 ### Struktura stránky
 
-Tvořeno párovými, nepárovými tagy. Každý tag má určené vlastnosti/atributy. Např. (<a href=”odkaz” target=”_blank”>)
+Tvořeno párovými, nepárovými tagy. Každý tag má určené vlastnosti/atributy. Např. (`<a href=”odkaz” target=”_blank”>`)
 
-- <!DOCTYPE html> : začátek stránky, bude následovat dokument typu HTML
-- <html></html> : v tom je tag head a body
-- <head></head> : určen pro metadata, klíčová slova, titulek, odkazy na styly, import, apod.
-- <body></body> : všechen obsah na stránce
+- `<!DOCTYPE html>` : začátek stránky, bude následovat dokument typu HTML
+- `<html></html>` : v tom je tag head a body
+- `<head></head>` : určen pro metadata, klíčová slova, titulek, odkazy na styly, import, apod.
+- `<body></body>` : všechen obsah na stránce
 
 ## CSS
 
 Stylování stránky, aby stránka nějak vypadala. Od roku 1996, aktuální verze CSS3, dá se pomocí ním ovlivňovat tagy, id, classy, něco v něčem/subclassy, ...
-CSS jde buď naincludovat v <head> tagu z externího souboru, popřípadě ho psát jako atribut/vlastnost style do určitého tagu nebo do tagu <style>.
+CSS jde buď naincludovat v `<head>` tagu z externího souboru, popřípadě ho psát jako atribut/vlastnost style do určitého tagu nebo do tagu `<style>`.
 Existují různé knihovny a frameworky: Bootstrap, Materialize, Tailwind, ...
 Vytvořené CSS se následně kompiluje do minifikovaných souboru z důvodu efektivity webu (rychlost, data).
 

@@ -24,6 +24,7 @@
   - [Kybernetické útoky a hrozby](informacni-technologie/kyberneticke-utoky-a-hrozby/README.md)
     - [Malware](informacni-technologie/kyberneticke-utoky-a-hrozby/malware.md)
     - [Typy útoků](informacni-technologie/kyberneticke-utoky-a-hrozby/typy-utoku.md)
+    - [Útočné strategie](informacni-technologie/kyberneticke-utoky-a-hrozby/utocne-strategie.md)
   - [Procesory](informacni-technologie/procesory/README.md)
     - [Historie procesorů](informacni-technologie/procesory/historie.md)
     - [Parametry procesorů](informacni-technologie/procesory/parametry.md)

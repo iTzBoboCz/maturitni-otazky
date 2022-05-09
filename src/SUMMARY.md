@@ -30,8 +30,6 @@
     - [Parametry procesorů](informacni-technologie/procesory/parametry.md)
     - [Architektury procesorů](informacni-technologie/procesory/architektury.md)
   - [Architektury počítačů](informacni-technologie/architektury-pocitacu/README.md)
-    - [Von Neumannovo schéma](informacni-technologie/architektury-pocitacu/von-neumannovo-schema.md)
-    - [Harvardská architektura](informacni-technologie/architektury-pocitacu/harvardska-architektura.md)
   - [Základní desky, BIOS a EFI](informacni-technologie/zakladni-desky-bios-a-efi/README.md)
     - [Základní desky](informacni-technologie/zakladni-desky-bios-a-efi/zakladni-desky/README.md)
     - [BIOS a EFI](informacni-technologie/zakladni-desky-bios-a-efi/bios-a-efi/README.md)

@@ -1,7 +1,5 @@
 # OOP
 
-# OOP
-
 - objektově orientované programování
 - je to programovací paridigma
   - existuje mnoho další paridigmat (POP, FOP, DOP, ...)

@@ -165,7 +165,7 @@
 
 ## 2D Animace
 
-animace jde dělat i ve 2D
+- animace jde dělat i ve 2D
 
 ### Frame by frame animace
 

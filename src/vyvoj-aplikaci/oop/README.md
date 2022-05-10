@@ -1,9 +1,9 @@
 # OOP
 
 - objektově orientované programování
-- je to programovací paridigma
-  - existuje mnoho další paridigmat (POP, FOP, DOP, ...)
-  - paridigma
+- je to programovací paradigma
+  - existuje mnoho další paradigmat (POP, FOP, DOP, ...)
+  - paradigma
     - způsob, jak třídit programovací jazyky na základě jejich vlastností
 - jedná se o filozofii a způsob myšlení, designu a implementace, kde klademe důraz na znovupoužitel­nost
 - snažíme se nasimulovat realitu tak, jak ji jsme zvyklí vnímat
@@ -44,7 +44,7 @@
   - je definovaná ve třídě
   - podtřídy musí tuto třídu implementovat
 
-## Další paridigma
+## Další paradigma
 
 - **POP**
   - procedurálně orientované programování

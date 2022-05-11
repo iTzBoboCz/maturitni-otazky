@@ -9,5 +9,6 @@ Toto je list všech, kteří se na tomto projektu podíleli.
 - [Jan Barták](https://github.com/GrimGames)
 - [Šimon Štáfek](https://github.com/sajmon134)
 - [Petr Nejedlý](https://github.com/nejedlypetr)
+- [Jakub Zeman](https://github.com/NormalKokoNut)
 
 Pokud si myslíte, že sem patříte, tak se můžete přidat vytvořením PR.

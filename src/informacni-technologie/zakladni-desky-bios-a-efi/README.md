@@ -2,12 +2,11 @@
 
 ## Základní desky
 
-- Základní hardware pro většinu počítačů, který slouží k propojení jednotlivých komponent a jejich následnému napájení
-- V dnešní době mají běžné desky mnoho možností připojení pomocí konektorů na zadním panelu
+Základní hardware pro většinu počítačů, který slouží k propojení jednotlivých komponent a jejich následnému napájení. V dnešní době mají běžné desky mnoho možností připojení pomocí konektorů na zadním panelu.
 
-**PCB** (Printed Circuit Board - deska tištěných spojů) - základní deska je tvořena několika vrstvami (slouží pro komunikaci) + jsou zde umístěny další obvody a konektory<br/>
+**PCB** (Printed Circuit Board - deska tištěných spojů) - základní deska je tvořena několika vrstvami (slouží pro komunikaci) + jsou zde umístěny další obvody a konektory
 
-Desky jsou rozlišovány v mnoha vlastnostech:<br/>
+Desky jsou rozlišovány v mnoha vlastnostech:
 
 - rozměry desky
 - způsob uchycení/typ napájecích konektorů
@@ -15,7 +14,7 @@ Desky jsou rozlišovány v mnoha vlastnostech:<br/>
 - vybavenost rozhraní a patice procesoru
 - chipset
 - způsob chlazení komponent
-- možnost přetaktování (závisí na BIOSu)<br/>
+- možnost přetaktování (závisí na BIOSu)
 
 ### Form factor základních desek (příklady):
 
@@ -32,7 +31,9 @@ Desky jsou rozlišovány v mnoha vlastnostech:<br/>
 
 #### Sběrnice
 
-- Slouží k přenosu dat mezi elektronickými zařízeními
+Slouží k přenosu dat mezi elektronickými zařízeními.
+
+Můžeme je dělit více způsoby:
 
 1. Dělení 1
 
@@ -86,19 +87,28 @@ Desky jsou rozlišovány v mnoha vlastnostech:<br/>
 
 ##### Externí sběrnice
 
-- USB, Thunderbolt, IEEE 1394 (FireWire), eSATA
+- USB
+- Thunderbolt
+- FireWire (IEEE 1394)
+- eSATA
 
 ### Chipset (čipová sada)
 
-- Integrované obvody, které slouží ke komunikaci mezi jednotlivými komponentami (procesor, paměti, rozšiřující karty, BIOS a konektory)
-- **Struktura:**
-  - systémový řadič - řídí spolupráci jednotlivých obvodů základní desky
-  - řadič sběrnice - zabezpečuje komunikaci mezi systémovou a rozšiřující sběrnicí
-  - buffer dat - slouží k zachycování dat a jejich přepínání mezi datovými sběrnicemi
-- North-South bridge design
-  - North bridge (_serverní můstek_) - vysokorychlostní komunikace mezi grafickou kartou, operační pamětí a procesorem
-  - South bridge (_jižní můstek_) - pomalejší komunikace mezi pomalými rozšiřujícími kartami, disky, řadiči externích rozhraní a různými mechanikami + zprostředkovává službu BIOSu
+Integrované obvody, které slouží ke komunikaci mezi jednotlivými komponentami (procesor, paměti, rozšiřující karty, BIOS a konektory).
+
+Chipsety dnes navrhuje například NVIDIA, AMD, VIA a Intel. Intel, ATI (dnes součástí AMD) a VIA je dokonce i vyrábí.
+
+#### Struktura
+
+- systémový řadič - řídí spolupráci jednotlivých obvodů základní desky
+- řadič sběrnice - zabezpečuje komunikaci mezi systémovou a rozšiřující sběrnicí
+- buffer dat - slouží k zachycování dat a jejich přepínání mezi datovými sběrnicemi
+
+#### North-South bridge design
+
+- North bridge (_serverní můstek_) - vysokorychlostní komunikace mezi grafickou kartou, operační pamětí a procesorem
+- South bridge (_jižní můstek_) - pomalejší komunikace mezi pomalými rozšiřujícími kartami, disky, řadiči externích rozhraní a různými mechanikami + zprostředkovává službu BIOSu
 - Dnes se objevuje více one chip design
-- North bridge může být integrován přímo do procesoru (do pouzdra procesoru)
-- Výrobci čipsetů: NVIDIA, AMD, VIA, Intel, ...
-  ![](../images/chipset.png)
+- North bridge může být integrován přímo do pouzdra procesoru
+
+![](./images/chipset.png)

@@ -1,1 +1,17 @@
 # Historie procesorů
+- **1971** - Intel 4004 - první mikroprocesor - 4 bitový (2300 tranzistorů)
+- **1972** - Intel 8008 - 8 bitový mikroprocesor - 0,8 MHz, 3500 t. 
+- **1974** - Intel 8080 - 8 bitový mikroprocesor, který se stal základem prvních 8bitových osobních počítačů, 1-2 MHz, 4500 t. 
+- **1975** - MOS Technology 6502 - 8 bitový mikroprocesor, montovány do Apple II, Commodore 64, Atari či Nintendo, 4000 t.
+- **1975** - Motorola 6800 - první procesor firmy Motorola, 1-2 MHz
+- **1975** - AMD nastupuje na trh s řadou Am2900 
+- **1976** - TI TMS 9900 - 16 bitový mikroprocesor
+- **1978** - Intel 8088 - 16 bitový mikroprocesor s 8bitovou sběrnicí, který byl použit v prvním IBM PC v roce, 4,77 MHz, 29 000 t.
+- **1979** - Motorola 68000 - 32/16 bitový mikroprocesor, až 8 (16,67) MHz 
+- **1979** - Zilog Z8000 - 16 bitový mikroprocesor, až 8 MB RAM, COBOL 
+- **1980** - IBM 801 - 24 bitový experimentální procesor s revoluční RISC architekturou dosahující vynikajícího výkonu, až 15 MIPS 
+- **1980** - Intel 8051 - 8 bitový mikroprocesor se základní sadou periferií pro embedded systémy, Harvardská architektura, 12 MHz
+- **1982** - Intel 80286 - 16 bitový mikroprocesor 
+- **1983** - TMS32010 - první DSP (Digital Signal Processor) firmy Texas Instruments 
+- **1985** - Intel 80386 - 32 bitový mikroprocesor (měl 275 000 t.) 
+- **1986** - Acorn ARM - 32 bitový RISC mikroprocesor, z Advanced RISC Machine, původně Acorn RISC Machine, použit i v domácích počítačích

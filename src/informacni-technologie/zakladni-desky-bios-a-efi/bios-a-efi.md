@@ -25,11 +25,10 @@
 - Původně vyvinuto společností Intel
 - V dnešní době nahrazeno UEFI (_Unified EFI_)
 - **Vlastnosti:**
-  - Podpora 64 bitových systémů
   - Grafické rozhraní (GUI) - lepší pro běžné uživatele
   - Vlastní koncepce ovladačů
   - Podpora šifrování a autentizace po síti
-  - Mnohonásobně větší než BIOS (desítky MB -> BIOS pár KB) - ukládáno do flash paměti
+  - Mnohonásobně větší než BIOS (desítky MB, BIOS jen pár KB) - ukládáno do flash paměti
   - Podpora větších uložišť
 
 ### UEFI
@@ -39,4 +38,5 @@
   - Kontrola elektronických podpisů
   - Pokus Microsoftu o znemožnění instalace jiného operačního systému
 - kritika UEFI kvůli komplikovanosti
-- UEFI jde proti open-source náhradám BIOSu jako je OpenBIOS nebo CoreBoot -> nevýhoda v lehké prolomitelnosti z hlediska otevřeného kódu
+- Pokud bychom chtěli využít nějakou alternativu, musíme použít více softwarů zároveň
+  - například: CoreBoot + SeaBIOS

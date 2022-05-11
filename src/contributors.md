@@ -8,5 +8,6 @@ Toto je list všech, kteří se na tomto projektu podíleli.
 - [Matouš Nehasil](https://github.com/maaatlaaa)
 - [Jan Barták](https://github.com/GrimGames)
 - [Šimon Štáfek](https://github.com/sajmon134)
+- [Petr Nejedlý](https://github.com/nejedlypetr)
 
 Pokud si myslíte, že sem patříte, tak se můžete přidat vytvořením PR.

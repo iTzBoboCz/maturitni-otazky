@@ -1,7 +1,7 @@
 # Historie procesorů
 - **1971** - Intel 4004 - první mikroprocesor - 4 bitový (2300 tranzistorů)
 - **1972** - Intel 8008 - 8 bitový mikroprocesor - 0,8 MHz, 3500 t. 
-- **1974** - Intel 8080 - 8 bitový mikroprocesor, který se stal základem prvních 8bitových osobních počítačů, 1-2 MHz, 4500 t. 
+- **1974** - Intel 8080 - 8 bitový mikroprocesor, který se stal základem prvních 8 bitových osobních počítačů, 1-2 MHz, 4500 t. 
 - **1975** - MOS Technology 6502 - 8 bitový mikroprocesor, montovány do Apple II, Commodore 64, Atari či Nintendo, 4000 t.
 - **1975** - Motorola 6800 - první procesor firmy Motorola, 1-2 MHz
 - **1975** - AMD nastupuje na trh s řadou Am2900 
